@@ -1,3 +1,294 @@
-do u know me ?
-do u like me ?
-time to say.
+public final class ColumnName2IndexHelper {
+
+    private Map<String, List<Integer>> columnName2IndexMap;
+
+    public ColumnName2IndexHelper(Map<String, List<Integer>> columnName2IndexMap) {
+        this.columnName2IndexMap = columnName2IndexMap;
+    }
+
+    /**
+     * 获取列名索引映射
+     * @param row
+     * @return
+     */
+    public static final Map<String, List<Integer>> getColumnName2IndexMap(HSSFRow row) {
+        Map<String, List<Integer>> columnName2IndexMap = new HashMap<>();
+        Iterator<Cell> iterator = row.iterator();
+        while (iterator.hasNext()) {
+            Cell cell = iterator.next();
+            String contents = cell.getStringCellValue();
+            if (StringUtils.isNotBlank(contents)) {
+                int columnIndex = cell.getColumnIndex();
+                if (columnName2IndexMap.containsKey(contents)) {
+                    columnName2IndexMap.get(contents).add(columnIndex);
+                } else {
+                    List<Integer> columnIndexes = new ArrayList<>();
+                    columnIndexes.add(columnIndex);
+                    columnName2IndexMap.put(contents, columnIndexes);
+                }
+            }
+        }
+        return columnName2IndexMap;
+    }
+
+    /**
+     * 按列名获取索引
+     * @param columnName
+     * @return
+     */
+    public int getColumnIndexByName(String columnName) {
+        //Assert.verify(columnName2IndexMap.containsKey(columnName), String.format("未知的列名：%s", columnName));
+        if (columnName2IndexMap.containsKey(columnName)) {
+            return getColumnIndexByName(columnName, 0);
+        }
+        return -1;
+    }
+
+    /**
+     * 按列名获取索引
+     * @param columnName
+     * @param serialNumber
+     * @return
+     */
+    public int getColumnIndexByName(String columnName, int serialNumber) {
+        return columnName2IndexMap.get(columnName).get(serialNumber);
+    }
+}
+
+
+
+public final class DatePeriodUtil {
+
+  private static final ThreadLocal<SimpleDateFormat> SHORT_FORMAT_HOLDER = new ThreadLocal<> ();
+
+  public DatePeriod getDatePeriod(Integer dateTypeCode, String dateFormatValue)
+      throws ParseException {
+    Period period = new PeriodFactory().getPeriod(dateTypeCode);
+    return period.getDatePeriod(dateFormatValue);
+  }
+
+  private final class PeriodFactory {
+
+    public Period getPeriod(Integer dateTypeCode) {
+      DateTypeEnum dateType = DateTypeEnum.get(dateTypeCode);
+      Period period = null;
+      switch (dateType) {
+        case BY_DAY:
+          period = new DayPeriod();
+          break;
+        case BY_WEEK:
+          period = new WeekPeriod();
+          break;
+        case BY_MONTH:
+          period = new MonthPeriod();
+          break;
+        case BY_YEAR:
+          period = new YearPeriod();
+          break;
+        default:
+          Assert.isTrue(false, "请添加日期区间类型");
+      }
+      return period;
+    }
+  }
+
+
+  private static SimpleDateFormat getSimpleDateFormat() {
+    SimpleDateFormat sdf = SHORT_FORMAT_HOLDER.get();
+    if (null == sdf) {
+      sdf = new SimpleDateFormat("yyyyMMdd");
+      SHORT_FORMAT_HOLDER.set(sdf);
+    }
+    return sdf;
+  }
+
+  private final class YearPeriod implements Period {
+
+    @Override
+    public DatePeriod getDatePeriod(String dateFormatValue)
+        throws ParseException {
+      String firstDate = dateFormatValue + "0101";
+      SimpleDateFormat sdf = getSimpleDateFormat();
+      Date firstDateOfYear = sdf.parse(firstDate);
+      Calendar calendar = Calendar.getInstance();
+      calendar.setTime(firstDateOfYear);
+      calendar.add(Calendar.YEAR, 1);
+      calendar.add(Calendar.DATE, -1);
+      DateUtil.setTime2LastMillis(calendar);
+      Date lastDateOfYear = calendar.getTime();
+      return new DatePeriod(firstDateOfYear, lastDateOfYear);
+    }
+  }
+
+  private final class MonthPeriod implements Period {
+
+    @Override
+    public DatePeriod getDatePeriod(String dateFormatValue)
+        throws ParseException {
+      SimpleDateFormat sdf = getSimpleDateFormat();
+      String firstDate = dateFormatValue + "01";
+      Date firstDateOfMonth = sdf.parse(firstDate);
+      Calendar calendar = Calendar.getInstance();
+      calendar.setTime(firstDateOfMonth);
+      calendar.add(Calendar.MONTH, 1);
+      calendar.add(Calendar.DATE, -1);
+      DateUtil.setTime2LastMillis(calendar);
+      Date lastDateOfMonth = calendar.getTime();
+      return new DatePeriod(firstDateOfMonth, lastDateOfMonth);
+    }
+  }
+
+  private final class WeekPeriod implements Period {
+
+    @Override
+    public DatePeriod getDatePeriod(String dateFormatValue)
+        throws ParseException {
+      int year = Integer.parseInt(dateFormatValue.substring(0, 4));
+      int week = Integer.parseInt(dateFormatValue.substring(4));
+      Date firstDateOfWeek = DateUtil.getFirstDayOfWeek(year, week);
+      Date lastDateOfWeek = DateUtil.getLastDayOfWeek(year, week);
+      return new DatePeriod(firstDateOfWeek, lastDateOfWeek);
+    }
+  }
+
+  private final class DayPeriod implements Period {
+
+    @Override
+    public DatePeriod getDatePeriod(String dateFormatValue)
+        throws ParseException {
+      SimpleDateFormat sdf = getSimpleDateFormat();
+      Date date = sdf.parse(dateFormatValue);
+      Calendar calendar = Calendar.getInstance();
+      calendar.setTime(date);
+      DateUtil.setTime2LastMillis(calendar);
+      return new DatePeriod(date, calendar.getTime());
+    }
+  }
+
+  private interface Period {
+    DatePeriod getDatePeriod(String dateFormatValue) throws ParseException;
+  }
+
+  public final class DatePeriod {
+
+    Date startDate;
+
+    Date endDate;
+
+    public DatePeriod(Date startDate, Date endDate) {
+      this.startDate = startDate;
+      this.endDate = endDate;
+    }
+
+    public Date getStartDate() {
+      return startDate;
+    }
+
+    private void setStartDate(Date startDate) {
+      this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+      return endDate;
+    }
+
+    private void setEndDate(Date endDate) {
+      this.endDate = endDate;
+    }
+
+  }
+
+}
+
+
+
+public enum DateTypeEnum {
+
+    /**
+     * 按日查询
+     */
+    BY_DAY(1,"%Y%m%d"),
+    /**
+     * 按周查询
+     */
+    BY_WEEK(2,"%Y%u"),
+    /**
+     * 按月查询
+     */
+    BY_MONTH(3,"%Y%m"),
+    /**
+     * 按年查询
+     */
+    BY_YEAR(4, "%Y");
+
+    Integer code;
+    String value;
+
+    DateTypeEnum(Integer code, String value) {
+        this.code=code;
+        this.value = value;
+    }
+
+    public Integer getCode() {
+        return code;
+    }
+
+    public void setCode(){this.code = code;}
+
+    public String getValue(){return value;}
+
+    public void setValue(){this.value = value;}
+
+    /**
+     * 根据code获取枚举对象
+     *
+     * @param code
+     * @return
+     */
+    public static DateTypeEnum get(int code) {
+        for (DateTypeEnum item : values()) {
+            if (code == item.getCode().intValue()) {
+                return item;
+            }
+        }
+        throw new RuntimeException("配置参数枚举Enum.code:" + code + " not exists");
+    }
+
+    /**
+     * 判断是否相等
+     *
+     * @param code
+     * @return
+     */
+    public boolean StorageDetailEnum(Integer code) {
+        if (code == null) {
+            return false;
+        }
+        return this.code.intValue() == code.intValue();
+    }
+}
+
+/**
+ * Copyright(C) ${YEAR} Toowel Network Technology Co., Ltd. All rights reserved.
+ *
+ *        description  -  functionDescrption
+ *
+ * @author Yubiao Huang (https://github.com/yubiaohyb)
+ * @since ${DATE} ${TIME}
+ * @version $$Id$$
+ */
+
+ * 方法注释
+ 
+ *
+ * @Description //TODO $end$
+ * @Author Yubiao Huang (https://github.com/yubiaohyb)
+ $param$
+ * @return $return$
+**/
+
+
+ groovyScript("def result=''; def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i < params.size(); i++) {result+='* @param ' + params[i] + ((i < params.size() - 1) ? '\\n ' : '')}; return result", methodParameters())
+ 
+ 
+ methodReturnType()
