@@ -1,0 +1,567 @@
+2018/10/16 10:41:51 [emerg] 8556#8044: CreateFile() "F:\软件\nginx-1.14.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2018/10/16 10:42:36 [emerg] 11692#6460: CreateFile() "F:\软件\nginx-1.14.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2018/10/16 10:44:36 [emerg] 1836#7576: CreateFile() "F:\软件\nginx-1.14.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2018/10/16 10:45:12 [emerg] 6828#3228: CreateFile() "F:\软件\nginx-1.14.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2018/10/16 10:47:58 [emerg] 2672#3012: CreateFile() "F:\软件\nginx-1.14.0/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2018/10/16 11:13:17 [emerg] 7340#3648: CreateFile() "./mime.types" failed (2: The system cannot find the file specified) in ./my.conf:18
+2018/10/16 11:13:35 [emerg] 10204#7608: CreateFile() "D:\Program Files\nginx-1.14.0/mime.types" failed (2: The system cannot find the file specified) in D:\Program Files\nginx-1.14.0/my.conf:18
+2018/10/16 11:14:35 [emerg] 5024#960: CreateFile() "D:\Program Files\nginx-1.14.0/.\mime.types" failed (2: The system cannot find the file specified) in D:\Program Files\nginx-1.14.0/.\my.conf:18
+2018/10/16 11:16:23 [emerg] 9972#8216: CreateFile() "./config/mime.types" failed (3: The system cannot find the path specified) in ./my.conf:18
+2018/10/16 11:16:38 [emerg] 7292#9888: CreateFile() "D:\Program Files\nginx-1.14.0/config/mime.types" failed (3: The system cannot find the path specified) in D:\Program Files\nginx-1.14.0/my.conf:18
+2018/10/16 11:17:31 [emerg] 4844#2832: CreateFile() "D:\Program Files\nginx-1.14.0/\config\mime.types" failed (3: The system cannot find the path specified) in D:\Program Files\nginx-1.14.0/my.conf:18
+2018/10/16 11:20:54 [emerg] 2988#3316: invalid number of arguments in "include" directive in D:\Program Files\nginx-1.14.0/my.conf:18
+2018/10/16 11:34:14 [notice] 4288#8528: signal process started
+2018/10/16 11:36:31 [notice] 3568#9256: signal process started
+2018/10/16 11:41:25 [notice] 11268#1244: signal process started
+2018/10/16 11:42:23 [emerg] 3364#9460: unknown directive "echo" in D:\Program Files\nginx-1.14.0/conf/my.conf:37
+2018/10/16 11:44:45 [emerg] 3916#6080: unknown directive "echo" in D:\Program Files\nginx-1.14.0/conf/my.conf:37
+2018/10/16 11:45:05 [emerg] 3528#4032: unknown directive "print" in D:\Program Files\nginx-1.14.0/conf/my.conf:37
+2018/10/16 11:50:59 [error] 5096#3184: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/10/16 11:51:17 [error] 5096#3184: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/123" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /123 HTTP/1.1", host: "localhost"
+2018/10/16 14:42:24 [notice] 4476#4240: signal process started
+2018/10/16 14:47:09 [error] 3916#11936: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 14:47:28 [error] 3916#11936: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 14:47:59 [error] 3916#11936: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 14:52:14 [notice] 10256#8256: signal process started
+2018/10/16 14:52:56 [error] 11484#7672: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 14:53:05 [notice] 11464#10088: signal process started
+2018/10/16 14:53:06 [notice] 9344#5336: signal process started
+2018/10/16 14:53:10 [notice] 6056#3148: signal process started
+2018/10/16 14:53:10 [error] 6056#3148: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 14:54:14 [error] 6740#8668: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 14:54:23 [notice] 6960#3868: signal process started
+2018/10/16 14:54:24 [notice] 5336#9344: signal process started
+2018/10/16 14:54:26 [notice] 8520#3084: signal process started
+2018/10/16 14:54:26 [error] 8520#3084: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 14:55:14 [error] 4836#5400: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 15:02:25 [notice] 9128#4464: signal process started
+2018/10/16 15:02:26 [notice] 11464#12232: signal process started
+2018/10/16 15:02:26 [error] 11464#12232: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:02:32 [emerg] 9864#4052: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in D:\Program Files\nginx-1.14.0/conf/my.conf:49
+2018/10/16 15:03:20 [emerg] 3916#8148: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in D:\Program Files\nginx-1.14.0/conf/my.conf:49
+2018/10/16 15:04:26 [error] 4100#2120: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 15:04:41 [notice] 5768#2748: signal process started
+2018/10/16 15:04:42 [notice] 7432#8100: signal process started
+2018/10/16 15:04:43 [notice] 8824#6816: signal process started
+2018/10/16 15:04:44 [notice] 9472#5096: signal process started
+2018/10/16 15:04:45 [notice] 4052#9864: signal process started
+2018/10/16 15:04:46 [notice] 5240#5936: signal process started
+2018/10/16 15:04:46 [error] 5240#5936: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:05:17 [error] 2748#4444: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 15:08:53 [notice] 8100#652: signal process started
+2018/10/16 15:08:53 [notice] 3916#9156: signal process started
+2018/10/16 15:08:53 [error] 3916#9156: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:08:55 [notice] 9228#9360: signal process started
+2018/10/16 15:08:55 [error] 9228#9360: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:08:56 [notice] 9916#9532: signal process started
+2018/10/16 15:08:56 [error] 9916#9532: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:09:20 [error] 8496#5432: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/search/error.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /search/error.html HTTP/1.1", host: "localhost"
+2018/10/16 15:14:38 [notice] 13924#13928: signal process started
+2018/10/16 15:14:39 [notice] 13964#13968: signal process started
+2018/10/16 15:14:39 [error] 13964#13968: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:25:16 [notice] 13556#8136: signal process started
+2018/10/16 15:25:17 [notice] 13276#13016: signal process started
+2018/10/16 15:25:17 [error] 13276#13016: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:25:18 [notice] 5492#9024: signal process started
+2018/10/16 15:25:18 [error] 5492#9024: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:26:27 [error] 13008#888: *3 CreateFile() "D:\Program Files\nginx-1.14.0/html/baidu" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /baidu HTTP/1.1", host: "localhost"
+2018/10/16 15:28:54 [notice] 13568#7148: signal process started
+2018/10/16 15:28:55 [notice] 12560#6460: signal process started
+2018/10/16 15:28:55 [error] 12560#6460: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:32:51 [notice] 6268#3528: signal process started
+2018/10/16 15:32:52 [notice] 8892#13732: signal process started
+2018/10/16 15:32:52 [error] 8892#13732: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:40:26 [emerg] 14028#6376: CreateFile() "D:\Program Files\nginx-1.14.0/conf/custom/mime.types" failed (2: The system cannot find the file specified) in D:\Program Files\nginx-1.14.0/conf/custom/my.conf:18
+2018/10/16 15:41:09 [error] 8956#12448: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/baidu" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /baidu HTTP/1.1", host: "localhost"
+2018/10/16 15:56:43 [notice] 12772#7576: signal process started
+2018/10/16 15:56:43 [notice] 3360#12940: signal process started
+2018/10/16 15:56:43 [error] 3360#12940: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/16 15:56:51 [notice] 14252#1380: using the "select" event method
+2018/10/16 15:56:51 [notice] 14252#1380: nginx/1.14.0
+2018/10/16 15:56:51 [info] 14252#1380: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/16 15:56:51 [notice] 14252#1380: start worker processes
+2018/10/16 15:56:51 [notice] 14252#1380: start worker process 12968
+2018/10/16 15:56:52 [notice] 12968#7944: nginx/1.14.0
+2018/10/16 15:56:52 [info] 12968#7944: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/16 15:56:52 [notice] 12968#7944: create thread 11992
+2018/10/16 15:56:52 [notice] 12968#7944: create thread 11364
+2018/10/16 15:56:52 [notice] 12968#7944: create thread 14076
+2018/10/16 15:57:17 [info] 12968#11992: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/16 15:57:17 [info] 12968#11992: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/16 15:59:14 [info] 12968#11992: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/10/16 15:59:14 [info] 12968#11992: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/10/17 13:38:50 [notice] 25896#26112: signal process started
+2018/10/17 13:38:50 [notice] 14252#1380: exiting
+2018/10/17 13:38:50 [notice] 12968#7944: gracefully shutting down
+2018/10/17 13:38:50 [notice] 12968#11364: exiting
+2018/10/17 13:38:50 [notice] 12968#11992: exiting
+2018/10/17 13:38:50 [notice] 12968#7944: exit
+2018/10/17 13:38:50 [notice] 14252#1380: worker process 12968 exited with code 0
+2018/10/17 13:38:50 [notice] 14252#1380: exit
+2018/10/17 13:38:51 [notice] 25652#26080: signal process started
+2018/10/17 13:38:51 [error] 25652#26080: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/17 13:39:00 [notice] 26512#26436: using the "select" event method
+2018/10/17 13:39:00 [notice] 26512#26436: nginx/1.14.0
+2018/10/17 13:39:00 [info] 26512#26436: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:39:00 [notice] 26512#26436: start worker processes
+2018/10/17 13:39:00 [notice] 26512#26436: start worker process 11992
+2018/10/17 13:39:00 [notice] 11992#11364: nginx/1.14.0
+2018/10/17 13:39:00 [info] 11992#11364: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:39:00 [notice] 11992#11364: create thread 24064
+2018/10/17 13:39:00 [notice] 11992#11364: create thread 26080
+2018/10/17 13:39:00 [notice] 11992#11364: create thread 25652
+2018/10/17 13:39:26 [crit] 11992#24064: *1 CreateFile() "D:\Program Files\nginx-1.14.0/鈥狣:\idea-workspace\share-demo\src\mainesources\application.properties" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /application.properties HTTP/1.1", host: "localhost"
+2018/10/17 13:40:17 [info] 11992#24064: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:41:43 [notice] 27528#27532: signal process started
+2018/10/17 13:41:43 [notice] 26512#26436: exiting
+2018/10/17 13:41:43 [notice] 11992#11364: gracefully shutting down
+2018/10/17 13:41:43 [notice] 11992#26080: exiting
+2018/10/17 13:41:43 [notice] 11992#24064: exiting
+2018/10/17 13:41:43 [notice] 11992#11364: exit
+2018/10/17 13:41:43 [notice] 26512#26436: worker process 11992 exited with code 0
+2018/10/17 13:41:43 [notice] 26512#26436: exit
+2018/10/17 13:41:44 [notice] 27560#27564: signal process started
+2018/10/17 13:41:44 [error] 27560#27564: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/17 13:41:48 [notice] 27616#27620: using the "select" event method
+2018/10/17 13:41:48 [notice] 27616#27620: nginx/1.14.0
+2018/10/17 13:41:48 [info] 27616#27620: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:41:48 [notice] 27616#27620: start worker processes
+2018/10/17 13:41:48 [notice] 27616#27620: start worker process 27636
+2018/10/17 13:41:48 [notice] 27636#27640: nginx/1.14.0
+2018/10/17 13:41:48 [info] 27636#27640: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:41:48 [notice] 27636#27640: create thread 26692
+2018/10/17 13:41:48 [notice] 27636#27640: create thread 26696
+2018/10/17 13:41:48 [notice] 27636#27640: create thread 26708
+2018/10/17 13:41:59 [crit] 27636#26692: *1 GetFileAttributesEx() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/ HTTP/1.1", host: "localhost"
+2018/10/17 13:42:04 [crit] 27636#26692: *2 CreateFile() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources/application.properties" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/application.properties HTTP/1.1", host: "localhost"
+2018/10/17 13:42:23 [info] 27636#26692: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:42:23 [error] 27636#26692: *4 CreateFile() "D:\Program Files\nginx-1.14.0/html/data" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /data HTTP/1.1", host: "localhost"
+2018/10/17 13:43:23 [info] 27636#26692: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:43:24 [info] 27636#26692: *6 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:52:08 [notice] 26956#27064: signal process started
+2018/10/17 13:52:08 [notice] 27616#27620: exiting
+2018/10/17 13:52:08 [notice] 27636#27640: gracefully shutting down
+2018/10/17 13:52:08 [notice] 27636#26696: exiting
+2018/10/17 13:52:09 [notice] 27636#26692: exiting
+2018/10/17 13:52:09 [notice] 27636#27640: exit
+2018/10/17 13:52:09 [notice] 27616#27620: worker process 27636 exited with code 0
+2018/10/17 13:52:09 [notice] 27616#27620: exit
+2018/10/17 13:52:09 [notice] 24752#27108: signal process started
+2018/10/17 13:52:09 [error] 24752#27108: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/17 13:52:16 [notice] 27072#14076: using the "select" event method
+2018/10/17 13:52:16 [notice] 27072#14076: nginx/1.14.0
+2018/10/17 13:52:16 [info] 27072#14076: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:52:16 [notice] 27072#14076: start worker processes
+2018/10/17 13:52:16 [notice] 27072#14076: start worker process 24244
+2018/10/17 13:52:16 [notice] 24244#27216: nginx/1.14.0
+2018/10/17 13:52:16 [info] 24244#27216: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/17 13:52:16 [notice] 24244#27216: create thread 26788
+2018/10/17 13:52:16 [notice] 24244#27216: create thread 26672
+2018/10/17 13:52:16 [notice] 24244#27216: create thread 24488
+2018/10/17 13:52:25 [crit] 24244#26788: *1 GetFileAttributesEx() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/ HTTP/1.1", host: "localhost"
+2018/10/17 13:52:40 [info] 24244#26788: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:52:40 [info] 24244#26788: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:52:40 [crit] 24244#26788: *4 CreateFile() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources/application.properties" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/application.properties HTTP/1.1", host: "localhost"
+2018/10/17 13:52:53 [info] 24244#26788: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:52:53 [info] 24244#26788: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:57:16 [info] 24244#26788: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:57:16 [info] 24244#26788: *9 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/17 13:57:17 [crit] 24244#26788: *10 CreateFile() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources/application.properties" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/application.properties HTTP/1.1", host: "localhost"
+2018/10/17 13:59:18 [crit] 24244#26788: *11 CreateFile() "D:\Program Files\nginx-1.14.0/鈥狣:/idea-workspace/share-demo/src/main/resources/application.properties" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 127.0.0.1, server: localhost, request: "GET /data/application.properties HTTP/1.1", host: "localhost"
+2018/10/17 13:59:51 [info] 24244#26788: *12 client 127.0.0.1 closed keepalive connection
+2018/10/17 14:09:37 [info] 24244#26788: *13 client 127.0.0.1 closed keepalive connection
+2018/10/17 14:10:59 [info] 24244#26788: *14 client 127.0.0.1 closed keepalive connection
+2018/10/17 14:15:47 [info] 24244#26788: *15 client 127.0.0.1 closed keepalive connection
+2018/10/17 14:16:56 [info] 24244#26788: *16 client 127.0.0.1 closed keepalive connection
+2018/10/17 16:52:14 [info] 24244#26788: *17 client 127.0.0.1 closed keepalive connection
+2018/10/17 16:52:43 [info] 24244#26788: *18 client 127.0.0.1 closed keepalive connection
+2018/10/17 16:56:31 [info] 24244#26788: *19 client 127.0.0.1 closed keepalive connection
+2018/10/17 16:57:26 [info] 24244#26788: *20 client 127.0.0.1 closed keepalive connection
+2018/10/17 17:38:58 [info] 24244#26788: *21 client 127.0.0.1 closed keepalive connection
+2018/10/17 18:08:34 [info] 24244#26788: *22 client 127.0.0.1 closed keepalive connection
+2018/10/18 10:06:18 [notice] 26112#23788: signal process started
+2018/10/18 10:06:18 [notice] 27072#14076: exiting
+2018/10/18 10:06:18 [notice] 24244#27216: gracefully shutting down
+2018/10/18 10:06:18 [notice] 24244#26672: exiting
+2018/10/18 10:06:18 [notice] 24244#26788: exiting
+2018/10/18 10:06:18 [notice] 24244#27216: exit
+2018/10/18 10:06:18 [notice] 27072#14076: worker process 24244 exited with code 0
+2018/10/18 10:06:18 [notice] 27072#14076: exit
+2018/10/18 10:06:20 [notice] 35604#36404: signal process started
+2018/10/18 10:06:20 [error] 35604#36404: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:06:58 [emerg] 32736#35892: unknown log format "info" in D:\Program Files\nginx-1.14.0/conf/custom/proxyLocal.conf:5
+2018/10/18 10:07:43 [emerg] 34340#36660: unknown log format "main" in D:\Program Files\nginx-1.14.0/conf/custom/proxyLocal.conf:5
+2018/10/18 10:08:12 [warn] 35664#32436: conflicting server name "localhost" on 0.0.0.0:9090, ignored
+2018/10/18 10:08:12 [notice] 35664#32436: using the "select" event method
+2018/10/18 10:08:12 [notice] 35664#32436: nginx/1.14.0
+2018/10/18 10:08:12 [info] 35664#32436: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:08:12 [notice] 35664#32436: start worker processes
+2018/10/18 10:08:12 [notice] 35664#32436: start worker process 34928
+2018/10/18 10:08:13 [warn] 34928#34432: conflicting server name "localhost" on 0.0.0.0:9090, ignored
+2018/10/18 10:08:13 [notice] 34928#34432: nginx/1.14.0
+2018/10/18 10:08:13 [info] 34928#34432: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:08:13 [notice] 34928#34432: create thread 25404
+2018/10/18 10:08:13 [notice] 34928#34432: create thread 30424
+2018/10/18 10:08:13 [notice] 34928#34432: create thread 28664
+2018/10/18 10:08:32 [notice] 27480#26748: signal process started
+2018/10/18 10:08:32 [notice] 35664#32436: exiting
+2018/10/18 10:08:32 [notice] 34928#34432: gracefully shutting down
+2018/10/18 10:08:32 [notice] 34928#30424: exiting
+2018/10/18 10:08:32 [notice] 34928#25404: exiting
+2018/10/18 10:08:32 [notice] 34928#34432: exit
+2018/10/18 10:08:32 [notice] 35664#32436: worker process 34928 exited with code 0
+2018/10/18 10:08:32 [notice] 35664#32436: exit
+2018/10/18 10:08:33 [notice] 36048#36112: signal process started
+2018/10/18 10:08:33 [error] 36048#36112: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:09:16 [notice] 26072#33584: using the "select" event method
+2018/10/18 10:09:16 [notice] 26072#33584: nginx/1.14.0
+2018/10/18 10:09:16 [info] 26072#33584: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:09:16 [notice] 26072#33584: start worker processes
+2018/10/18 10:09:16 [notice] 26072#33584: start worker process 19540
+2018/10/18 10:09:16 [notice] 19540#35808: nginx/1.14.0
+2018/10/18 10:09:16 [info] 19540#35808: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:09:16 [notice] 19540#35808: create thread 36812
+2018/10/18 10:09:16 [notice] 19540#35808: create thread 34032
+2018/10/18 10:09:16 [notice] 19540#35808: create thread 29004
+2018/10/18 10:09:39 [info] 19540#36812: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 10:09:39 [info] 19540#36812: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 10:09:48 [error] 19540#36812: *10 CreateFile() "D:\Program Files\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:9091", referrer: "http://localhost:9091/"
+2018/10/18 10:10:04 [info] 19540#36812: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 10:10:04 [info] 19540#36812: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 10:10:04 [info] 19540#36812: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/10/18 10:10:04 [info] 19540#36812: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9090
+2018/10/18 10:10:04 [info] 19540#36812: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:10:04 [info] 19540#36812: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:10:04 [error] 19540#36812: *10 "D:\Program Files\nginx-1.14.0/html/data/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /data/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:10:11 [error] 19540#36812: *10 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:10:27 [info] 19540#36812: *13 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:11:26 [notice] 34624#36612: signal process started
+2018/10/18 10:11:26 [notice] 26072#33584: exiting
+2018/10/18 10:11:26 [notice] 19540#35808: gracefully shutting down
+2018/10/18 10:11:26 [notice] 19540#34032: exiting
+2018/10/18 10:11:27 [info] 19540#36812: *14 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:11:27 [notice] 19540#36812: exiting
+2018/10/18 10:11:27 [notice] 19540#35808: exit
+2018/10/18 10:11:27 [notice] 26072#33584: worker process 19540 exited with code 0
+2018/10/18 10:11:27 [notice] 26072#33584: exit
+2018/10/18 10:11:37 [notice] 32912#29796: signal process started
+2018/10/18 10:11:37 [error] 32912#29796: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:11:50 [emerg] 33480#26228: CreateFile() "D:\Program Files\nginx-1.14.0/conf/my.conf" failed (2: The system cannot find the file specified)
+2018/10/18 10:12:18 [notice] 25812#29300: using the "select" event method
+2018/10/18 10:12:18 [notice] 25812#29300: nginx/1.14.0
+2018/10/18 10:12:18 [info] 25812#29300: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:12:18 [notice] 25812#29300: start worker processes
+2018/10/18 10:12:18 [notice] 25812#29300: start worker process 24700
+2018/10/18 10:12:19 [notice] 24700#34328: nginx/1.14.0
+2018/10/18 10:12:19 [info] 24700#34328: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:12:19 [notice] 24700#34328: create thread 35816
+2018/10/18 10:12:19 [notice] 24700#34328: create thread 5728
+2018/10/18 10:12:19 [notice] 24700#34328: create thread 34040
+2018/10/18 10:12:25 [error] 24700#35816: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:12:31 [error] 24700#35816: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:12:38 [info] 24700#35816: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:12:38 [info] 24700#35816: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:13:58 [info] 24700#35816: *4 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:14:18 [notice] 36112#36048: signal process started
+2018/10/18 10:14:18 [notice] 25812#29300: exiting
+2018/10/18 10:14:18 [notice] 24700#34328: gracefully shutting down
+2018/10/18 10:14:18 [notice] 24700#5728: exiting
+2018/10/18 10:14:19 [notice] 24700#35816: exiting
+2018/10/18 10:14:19 [notice] 24700#34328: exit
+2018/10/18 10:14:19 [notice] 25812#29300: worker process 24700 exited with code 0
+2018/10/18 10:14:19 [notice] 25812#29300: exit
+2018/10/18 10:19:27 [notice] 35292#35296: using the "select" event method
+2018/10/18 10:19:27 [notice] 35292#35296: nginx/1.14.0
+2018/10/18 10:19:27 [info] 35292#35296: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:19:27 [notice] 35292#35296: start worker processes
+2018/10/18 10:19:27 [notice] 35292#35296: start worker process 35852
+2018/10/18 10:19:28 [notice] 35852#33960: nginx/1.14.0
+2018/10/18 10:19:28 [info] 35852#33960: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:19:28 [notice] 35852#33960: create thread 8216
+2018/10/18 10:19:28 [notice] 35852#33960: create thread 35900
+2018/10/18 10:19:28 [notice] 35852#33960: create thread 36476
+2018/10/18 10:20:09 [info] 35852#8216: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:20:09 [info] 35852#8216: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:20:39 [notice] 27216#26112: signal process started
+2018/10/18 10:20:39 [notice] 35292#35296: exiting
+2018/10/18 10:20:39 [notice] 35852#33960: gracefully shutting down
+2018/10/18 10:20:39 [notice] 35852#35900: exiting
+2018/10/18 10:20:44 [notice] 35292#35296: exit
+2018/10/18 10:20:47 [notice] 34992#36696: using the "select" event method
+2018/10/18 10:20:47 [notice] 34992#36696: nginx/1.14.0
+2018/10/18 10:20:47 [info] 34992#36696: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:20:47 [notice] 34992#36696: start worker processes
+2018/10/18 10:20:47 [notice] 34992#36696: start worker process 33444
+2018/10/18 10:20:47 [notice] 33444#32188: nginx/1.14.0
+2018/10/18 10:20:47 [info] 33444#32188: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:20:47 [notice] 33444#32188: create thread 35932
+2018/10/18 10:20:47 [notice] 33444#32188: create thread 35092
+2018/10/18 10:20:47 [notice] 33444#32188: create thread 36268
+2018/10/18 10:21:15 [info] 33444#35932: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:21:15 [info] 33444#35932: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:21:15 [error] 33444#35932: *3 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:22:11 [info] 33444#35932: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:22:11 [info] 33444#35932: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:22:11 [error] 33444#35932: *3 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:22:35 [info] 33444#35932: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:22:45 [notice] 36612#36456: signal process started
+2018/10/18 10:22:45 [notice] 34992#36696: exiting
+2018/10/18 10:22:45 [notice] 33444#32188: gracefully shutting down
+2018/10/18 10:22:45 [notice] 33444#35092: exiting
+2018/10/18 10:22:46 [notice] 34892#31916: signal process started
+2018/10/18 10:22:46 [notice] 34992#36696: exiting
+2018/10/18 10:22:48 [notice] 35812#29608: signal process started
+2018/10/18 10:22:48 [notice] 34992#36696: exiting
+2018/10/18 10:22:49 [notice] 36172#36348: signal process started
+2018/10/18 10:22:49 [notice] 34992#36696: exiting
+2018/10/18 10:22:50 [notice] 25832#24244: signal process started
+2018/10/18 10:22:50 [notice] 34992#36696: exiting
+2018/10/18 10:22:50 [notice] 34992#36696: exit
+2018/10/18 10:22:51 [notice] 13020#35768: signal process started
+2018/10/18 10:22:51 [error] 13020#35768: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:22:52 [notice] 35592#31708: signal process started
+2018/10/18 10:22:52 [error] 35592#31708: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:22:53 [notice] 35344#25728: signal process started
+2018/10/18 10:22:53 [error] 35344#25728: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:22:59 [notice] 30848#28544: using the "select" event method
+2018/10/18 10:22:59 [notice] 30848#28544: nginx/1.14.0
+2018/10/18 10:22:59 [info] 30848#28544: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:22:59 [notice] 30848#28544: start worker processes
+2018/10/18 10:22:59 [notice] 30848#28544: start worker process 30592
+2018/10/18 10:22:59 [notice] 30592#36392: nginx/1.14.0
+2018/10/18 10:22:59 [info] 30592#36392: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:22:59 [notice] 30592#36392: create thread 36764
+2018/10/18 10:22:59 [notice] 30592#36392: create thread 33768
+2018/10/18 10:22:59 [notice] 30592#36392: create thread 35404
+2018/10/18 10:24:04 [info] 30592#36764: *1 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:24:04 [info] 30592#36764: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:24:18 [notice] 24796#36368: signal process started
+2018/10/18 10:24:18 [notice] 30848#28544: exiting
+2018/10/18 10:24:18 [notice] 30592#36392: gracefully shutting down
+2018/10/18 10:24:18 [notice] 30592#33768: exiting
+2018/10/18 10:24:18 [notice] 30592#36764: exiting
+2018/10/18 10:24:18 [notice] 30592#36392: exit
+2018/10/18 10:24:18 [notice] 30848#28544: worker process 30592 exited with code 0
+2018/10/18 10:24:18 [notice] 30848#28544: exit
+2018/10/18 10:24:18 [notice] 34232#36548: signal process started
+2018/10/18 10:24:18 [error] 34232#36548: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:24:19 [notice] 36460#35588: signal process started
+2018/10/18 10:24:19 [error] 36460#35588: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:24:23 [notice] 35956#34072: using the "select" event method
+2018/10/18 10:24:23 [notice] 35956#34072: nginx/1.14.0
+2018/10/18 10:24:23 [info] 35956#34072: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:24:23 [notice] 35956#34072: start worker processes
+2018/10/18 10:24:23 [notice] 35956#34072: start worker process 29988
+2018/10/18 10:24:23 [notice] 29988#22840: nginx/1.14.0
+2018/10/18 10:24:23 [info] 29988#22840: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:24:23 [notice] 29988#22840: create thread 36748
+2018/10/18 10:24:23 [notice] 29988#22840: create thread 26064
+2018/10/18 10:24:23 [notice] 29988#22840: create thread 35596
+2018/10/18 10:24:31 [error] 29988#36748: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:24:34 [error] 29988#36748: *1 CreateFile() "D:\Program Files\nginx-1.14.0/config\" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:25:31 [info] 29988#36748: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:25:31 [info] 29988#36748: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:25:39 [notice] 36348#36172: signal process started
+2018/10/18 10:25:39 [notice] 35956#34072: exiting
+2018/10/18 10:25:39 [notice] 29988#22840: gracefully shutting down
+2018/10/18 10:25:39 [notice] 29988#26064: exiting
+2018/10/18 10:25:40 [notice] 29988#36748: exiting
+2018/10/18 10:25:40 [notice] 29988#22840: exit
+2018/10/18 10:25:40 [notice] 35956#34072: worker process 29988 exited with code 0
+2018/10/18 10:25:40 [notice] 35956#34072: exit
+2018/10/18 10:25:40 [notice] 32188#35180: signal process started
+2018/10/18 10:25:40 [error] 32188#35180: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:25:41 [notice] 34380#30728: signal process started
+2018/10/18 10:25:41 [error] 34380#30728: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:26:18 [notice] 29484#35296: using the "select" event method
+2018/10/18 10:26:18 [notice] 29484#35296: nginx/1.14.0
+2018/10/18 10:26:18 [info] 29484#35296: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:26:18 [notice] 29484#35296: start worker processes
+2018/10/18 10:26:18 [notice] 29484#35296: start worker process 35292
+2018/10/18 10:26:18 [notice] 35292#35032: nginx/1.14.0
+2018/10/18 10:26:18 [info] 35292#35032: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:26:18 [notice] 35292#35032: create thread 34728
+2018/10/18 10:26:18 [notice] 35292#35032: create thread 36736
+2018/10/18 10:26:18 [notice] 35292#35032: create thread 36760
+2018/10/18 10:26:23 [error] 35292#34728: *1 CreateFile() "D:\Program Files\nginx-1.14.0/config\" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:26:30 [error] 35292#34728: *1 CreateFile() "D:\Program Files\nginx-1.14.0/config\" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:26:33 [info] 35292#34728: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:26:33 [info] 35292#34728: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:26:33 [error] 35292#34728: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:26:43 [error] 35292#34728: *1 CreateFile() "D:\Program Files\nginx-1.14.0/config\index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:27:00 [notice] 35172#36536: signal process started
+2018/10/18 10:27:00 [notice] 29484#35296: exiting
+2018/10/18 10:27:00 [notice] 35292#35032: gracefully shutting down
+2018/10/18 10:27:00 [notice] 35292#36736: exiting
+2018/10/18 10:27:01 [notice] 36808#35752: signal process started
+2018/10/18 10:27:01 [notice] 29484#35296: exiting
+2018/10/18 10:27:02 [notice] 33836#30592: signal process started
+2018/10/18 10:27:02 [notice] 29484#35296: exiting
+2018/10/18 10:27:03 [notice] 36620#25652: signal process started
+2018/10/18 10:27:03 [notice] 29484#35296: exiting
+2018/10/18 10:27:05 [notice] 29484#35296: exit
+2018/10/18 10:27:06 [notice] 35280#33804: signal process started
+2018/10/18 10:27:06 [error] 35280#33804: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:08 [notice] 36288#36192: signal process started
+2018/10/18 10:27:08 [error] 36288#36192: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:09 [notice] 36516#24960: signal process started
+2018/10/18 10:27:09 [error] 36516#24960: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:10 [notice] 34328#36636: signal process started
+2018/10/18 10:27:10 [error] 34328#36636: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:11 [notice] 34260#27744: signal process started
+2018/10/18 10:27:11 [error] 34260#27744: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:12 [notice] 36652#35600: signal process started
+2018/10/18 10:27:12 [error] 36652#35600: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:27:57 [notice] 36200#36508: signal process started
+2018/10/18 10:27:57 [error] 36200#36508: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:28:02 [notice] 35324#36612: using the "select" event method
+2018/10/18 10:28:02 [notice] 35324#36612: nginx/1.14.0
+2018/10/18 10:28:02 [info] 35324#36612: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:28:02 [notice] 35324#36612: start worker processes
+2018/10/18 10:28:02 [notice] 35324#36612: start worker process 32836
+2018/10/18 10:28:02 [notice] 32836#34624: nginx/1.14.0
+2018/10/18 10:28:02 [info] 32836#34624: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:28:02 [notice] 32836#34624: create thread 35812
+2018/10/18 10:28:02 [notice] 32836#34624: create thread 33200
+2018/10/18 10:28:02 [notice] 32836#34624: create thread 36528
+2018/10/18 10:28:09 [error] 32836#35812: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:28:27 [info] 32836#35812: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:28:27 [info] 32836#35812: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:28:27 [error] 32836#35812: *1 CreateFile() "D:\index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:28:57 [notice] 30828#25016: signal process started
+2018/10/18 10:28:57 [notice] 35324#36612: exiting
+2018/10/18 10:28:57 [notice] 32836#34624: gracefully shutting down
+2018/10/18 10:28:57 [notice] 32836#33200: exiting
+2018/10/18 10:28:58 [notice] 34184#24488: signal process started
+2018/10/18 10:28:58 [notice] 35324#36612: exiting
+2018/10/18 10:28:59 [notice] 34236#31100: signal process started
+2018/10/18 10:28:59 [notice] 35324#36612: exiting
+2018/10/18 10:28:59 [notice] 35796#8216: signal process started
+2018/10/18 10:28:59 [notice] 35324#36612: exiting
+2018/10/18 10:29:00 [notice] 36124#36816: signal process started
+2018/10/18 10:29:00 [notice] 35324#36612: exiting
+2018/10/18 10:29:00 [notice] 30292#13352: signal process started
+2018/10/18 10:29:00 [notice] 35324#36612: exiting
+2018/10/18 10:29:01 [notice] 32160#35872: signal process started
+2018/10/18 10:29:01 [notice] 35324#36612: exiting
+2018/10/18 10:29:02 [notice] 35440#34908: signal process started
+2018/10/18 10:29:02 [notice] 35324#36612: exiting
+2018/10/18 10:29:02 [notice] 35324#36612: exit
+2018/10/18 10:29:02 [notice] 34588#34340: signal process started
+2018/10/18 10:29:02 [error] 34588#34340: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:29:03 [notice] 34956#34952: signal process started
+2018/10/18 10:29:03 [error] 34956#34952: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:29:04 [notice] 34024#25808: signal process started
+2018/10/18 10:29:04 [error] 34024#25808: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:29:05 [notice] 34120#34856: signal process started
+2018/10/18 10:29:05 [error] 34120#34856: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:29:10 [notice] 23480#35084: using the "select" event method
+2018/10/18 10:29:10 [notice] 23480#35084: nginx/1.14.0
+2018/10/18 10:29:10 [info] 23480#35084: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:29:10 [notice] 23480#35084: start worker processes
+2018/10/18 10:29:10 [notice] 23480#35084: start worker process 34344
+2018/10/18 10:29:11 [notice] 34344#34848: nginx/1.14.0
+2018/10/18 10:29:11 [info] 34344#34848: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:29:11 [notice] 34344#34848: create thread 33148
+2018/10/18 10:29:11 [notice] 34344#34848: create thread 34032
+2018/10/18 10:29:11 [notice] 34344#34848: create thread 33552
+2018/10/18 10:29:48 [info] 34344#33148: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:29:48 [info] 34344#33148: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:29:48 [error] 34344#33148: *1 CreateFile() "D:\config\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:30:06 [info] 34344#33148: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:30:16 [notice] 31180#34832: signal process started
+2018/10/18 10:30:16 [notice] 23480#35084: exiting
+2018/10/18 10:30:16 [notice] 34344#34848: gracefully shutting down
+2018/10/18 10:30:16 [notice] 34344#34032: exiting
+2018/10/18 10:30:17 [notice] 34344#33148: exiting
+2018/10/18 10:30:17 [notice] 34344#34848: exit
+2018/10/18 10:30:17 [notice] 23480#35084: worker process 34344 exited with code 0
+2018/10/18 10:30:17 [notice] 23480#35084: exit
+2018/10/18 10:30:17 [notice] 35732#31324: signal process started
+2018/10/18 10:30:17 [error] 35732#31324: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:30:17 [notice] 5728#36640: signal process started
+2018/10/18 10:30:17 [error] 5728#36640: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:30:18 [notice] 22812#22696: signal process started
+2018/10/18 10:30:18 [error] 22812#22696: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:31:23 [notice] 35740#35888: signal process started
+2018/10/18 10:31:23 [error] 35740#35888: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:31:26 [notice] 36840#24920: signal process started
+2018/10/18 10:31:26 [error] 36840#24920: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:31:29 [notice] 26048#32156: using the "select" event method
+2018/10/18 10:31:29 [notice] 26048#32156: nginx/1.14.0
+2018/10/18 10:31:29 [info] 26048#32156: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:31:29 [notice] 26048#32156: start worker processes
+2018/10/18 10:31:29 [notice] 26048#32156: start worker process 36544
+2018/10/18 10:31:29 [notice] 36544#29476: nginx/1.14.0
+2018/10/18 10:31:29 [info] 36544#29476: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:31:29 [notice] 36544#29476: create thread 35388
+2018/10/18 10:31:29 [notice] 36544#29476: create thread 4508
+2018/10/18 10:31:29 [notice] 36544#29476: create thread 24488
+2018/10/18 10:31:35 [error] 36544#35388: *1 CreateFile() "D:/config/\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:31:59 [notice] 34024#33276: signal process started
+2018/10/18 10:31:59 [notice] 26048#32156: exiting
+2018/10/18 10:31:59 [notice] 36544#29476: gracefully shutting down
+2018/10/18 10:31:59 [notice] 36544#4508: exiting
+2018/10/18 10:31:59 [notice] 34060#36312: signal process started
+2018/10/18 10:31:59 [notice] 26048#32156: exiting
+2018/10/18 10:32:00 [notice] 31224#35656: signal process started
+2018/10/18 10:32:00 [notice] 26048#32156: exiting
+2018/10/18 10:32:01 [notice] 32220#32148: signal process started
+2018/10/18 10:32:01 [notice] 26048#32156: exiting
+2018/10/18 10:32:01 [notice] 34320#19776: signal process started
+2018/10/18 10:32:01 [notice] 26048#32156: exiting
+2018/10/18 10:32:02 [notice] 35252#36360: signal process started
+2018/10/18 10:32:02 [notice] 26048#32156: exiting
+2018/10/18 10:32:03 [notice] 35644#35784: signal process started
+2018/10/18 10:32:03 [notice] 26048#32156: exiting
+2018/10/18 10:32:03 [notice] 30800#35412: signal process started
+2018/10/18 10:32:03 [notice] 26048#32156: exiting
+2018/10/18 10:32:04 [notice] 26048#32156: exit
+2018/10/18 10:32:04 [notice] 25192#10600: signal process started
+2018/10/18 10:32:04 [error] 25192#10600: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:32:05 [notice] 30140#32836: signal process started
+2018/10/18 10:32:05 [error] 30140#32836: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:32:35 [notice] 30592#31068: using the "select" event method
+2018/10/18 10:32:35 [notice] 30592#31068: nginx/1.14.0
+2018/10/18 10:32:35 [info] 30592#31068: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:32:35 [notice] 30592#31068: start worker processes
+2018/10/18 10:32:35 [notice] 30592#31068: start worker process 23100
+2018/10/18 10:32:36 [notice] 23100#22788: nginx/1.14.0
+2018/10/18 10:32:36 [info] 23100#22788: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 10:32:36 [notice] 23100#22788: create thread 30248
+2018/10/18 10:32:36 [notice] 23100#22788: create thread 36392
+2018/10/18 10:32:36 [notice] 23100#22788: create thread 31112
+2018/10/18 10:33:01 [error] 23100#30248: *1 CreateFile() "D:\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:33:08 [error] 23100#30248: *1 CreateFile() "D:\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:33:12 [info] 23100#30248: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:33:12 [info] 23100#30248: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:33:12 [error] 23100#30248: *1 CreateFile() "D:\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:33:24 [info] 23100#30248: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:33:24 [error] 23100#30248: *1 CreateFile() "D:\appliction-a.properties" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/appliction-a.properties HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:33:37 [info] 23100#30248: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:33:45 [error] 23100#30248: *1 CreateFile() "D:\Program Files\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 10:33:48 [info] 23100#30248: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:34:28 [info] 23100#30248: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 10:34:39 [notice] 33324#35528: signal process started
+2018/10/18 10:34:39 [notice] 30592#31068: exiting
+2018/10/18 10:34:39 [notice] 23100#22788: gracefully shutting down
+2018/10/18 10:34:39 [notice] 23100#36392: exiting
+2018/10/18 10:34:39 [notice] 36636#34328: signal process started
+2018/10/18 10:34:39 [notice] 30592#31068: exiting
+2018/10/18 10:34:40 [notice] 31736#33456: signal process started
+2018/10/18 10:34:40 [notice] 30592#31068: exiting
+2018/10/18 10:34:41 [notice] 2508#35412: signal process started
+2018/10/18 10:34:41 [notice] 30592#31068: exiting
+2018/10/18 10:34:42 [notice] 4508#24488: signal process started
+2018/10/18 10:34:42 [notice] 30592#31068: exiting
+2018/10/18 10:34:42 [notice] 34492#34028: signal process started
+2018/10/18 10:34:42 [notice] 30592#31068: exiting
+2018/10/18 10:34:43 [notice] 32156#26048: signal process started
+2018/10/18 10:34:43 [notice] 30592#31068: exiting
+2018/10/18 10:34:44 [notice] 34368#14076: signal process started
+2018/10/18 10:34:44 [notice] 30592#31068: exiting
+2018/10/18 10:34:44 [notice] 30592#31068: exit
+2018/10/18 10:34:44 [notice] 34464#32864: signal process started
+2018/10/18 10:34:44 [error] 34464#32864: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 10:34:45 [notice] 31472#25828: signal process started
+2018/10/18 10:34:45 [error] 31472#25828: CreateFile() "D:\Program Files\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
