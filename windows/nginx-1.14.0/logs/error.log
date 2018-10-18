@@ -853,3 +853,1990 @@
 2018/10/18 15:10:55 [info] 42068#41420: *74 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
 2018/10/18 15:10:55 [notice] 42068#41420: exiting
 2018/10/18 15:10:55 [notice] 42068#39036: exit
+2018/10/18 15:10:55 [notice] 39304#34520: worker process 42068 exited with code 0
+2018/10/18 15:11:07 [info] 29676#42384: *76 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:11:07 [info] 29676#42384: *77 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:11:32 [info] 29676#42384: *78 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:12:02 [info] 29676#42384: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:12:48 [info] 29676#42384: *80 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:13:49 [info] 29676#42384: *81 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:14:56 [info] 29676#42384: *83 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:14:56 [info] 29676#42384: *84 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:15:42 [info] 29676#42384: *85 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:16:13 [info] 29676#42384: *87 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:16:13 [info] 29676#42384: *88 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:16:52 [notice] 42736#42524: signal process started
+2018/10/18 15:16:52 [notice] 39304#34520: reconfiguring
+2018/10/18 15:16:52 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:16:52 [notice] 39304#34520: start worker processes
+2018/10/18 15:16:52 [notice] 39304#34520: start worker process 36848
+2018/10/18 15:16:52 [notice] 36848#43004: nginx/1.14.0
+2018/10/18 15:16:52 [info] 36848#43004: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:16:52 [notice] 36848#43004: create thread 39528
+2018/10/18 15:16:52 [notice] 29676#42284: gracefully shutting down
+2018/10/18 15:16:52 [notice] 36848#43004: create thread 42444
+2018/10/18 15:16:52 [notice] 29676#42392: exiting
+2018/10/18 15:16:52 [notice] 36848#43004: create thread 41992
+2018/10/18 15:16:57 [info] 29676#42384: *89 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:16:57 [info] 29676#42384: *90 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:16:57 [notice] 29676#42384: exiting
+2018/10/18 15:16:57 [notice] 29676#42284: exit
+2018/10/18 15:16:57 [notice] 39304#34520: worker process 29676 exited with code 0
+2018/10/18 15:17:11 [info] 36848#39528: *92 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:17:11 [info] 36848#39528: *93 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:17:11 [error] 36848#39528: *91 directory index of "D:/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:17:22 [info] 36848#39528: *94 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:17:25 [error] 36848#39528: *91 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:18:11 [notice] 42724#31828: signal process started
+2018/10/18 15:18:11 [notice] 39304#34520: reconfiguring
+2018/10/18 15:18:11 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:18:11 [notice] 39304#34520: start worker processes
+2018/10/18 15:18:11 [notice] 39304#34520: start worker process 37384
+2018/10/18 15:18:11 [notice] 37384#34648: nginx/1.14.0
+2018/10/18 15:18:11 [info] 37384#34648: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:18:11 [notice] 37384#34648: create thread 42860
+2018/10/18 15:18:11 [notice] 36848#43004: gracefully shutting down
+2018/10/18 15:18:11 [notice] 36848#42444: exiting
+2018/10/18 15:18:11 [notice] 37384#34648: create thread 42716
+2018/10/18 15:18:11 [notice] 37384#34648: create thread 40424
+2018/10/18 15:18:22 [info] 36848#39528: *95 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:18:22 [notice] 36848#39528: exiting
+2018/10/18 15:18:22 [notice] 36848#43004: exit
+2018/10/18 15:18:22 [notice] 39304#34520: worker process 36848 exited with code 0
+2018/10/18 15:18:32 [notice] 43000#33008: signal process started
+2018/10/18 15:18:32 [notice] 39304#34520: reconfiguring
+2018/10/18 15:18:32 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:18:32 [notice] 39304#34520: start worker processes
+2018/10/18 15:18:32 [notice] 39304#34520: start worker process 36496
+2018/10/18 15:18:32 [notice] 36496#41584: nginx/1.14.0
+2018/10/18 15:18:32 [info] 36496#41584: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:18:32 [notice] 36496#41584: create thread 33940
+2018/10/18 15:18:32 [notice] 37384#34648: gracefully shutting down
+2018/10/18 15:18:32 [notice] 37384#42716: exiting
+2018/10/18 15:18:32 [notice] 36496#41584: create thread 37484
+2018/10/18 15:18:32 [notice] 36496#41584: create thread 42752
+2018/10/18 15:18:33 [notice] 37384#42860: exiting
+2018/10/18 15:18:33 [notice] 37384#34648: exit
+2018/10/18 15:18:33 [notice] 39304#34520: worker process 37384 exited with code 0
+2018/10/18 15:18:38 [error] 36496#33940: *96 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:18:42 [error] 36496#33940: *96 the rewritten URI has a zero length, client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:18:48 [error] 36496#33940: *97 the rewritten URI has a zero length, client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:19:38 [info] 36496#33940: *98 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:19:49 [error] 36496#33940: *99 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:19:52 [error] 36496#33940: *99 the rewritten URI has a zero length, client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:20:49 [info] 36496#33940: *100 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:20:49 [info] 36496#33940: *101 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:20:55 [error] 36496#33940: *102 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:20:59 [error] 36496#33940: *102 the rewritten URI has a zero length, client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:21:05 [notice] 42260#31828: signal process started
+2018/10/18 15:21:05 [notice] 39304#34520: reconfiguring
+2018/10/18 15:21:05 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:21:05 [notice] 39304#34520: start worker processes
+2018/10/18 15:21:05 [notice] 39304#34520: start worker process 42388
+2018/10/18 15:21:05 [notice] 42388#42880: nginx/1.14.0
+2018/10/18 15:21:05 [info] 42388#42880: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:21:05 [notice] 36496#41584: gracefully shutting down
+2018/10/18 15:21:05 [notice] 42388#42880: create thread 42480
+2018/10/18 15:21:05 [notice] 36496#37484: exiting
+2018/10/18 15:21:05 [notice] 42388#42880: create thread 42420
+2018/10/18 15:21:05 [notice] 42388#42880: create thread 42116
+2018/10/18 15:21:09 [info] 36496#33940: *103 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:21:09 [info] 36496#33940: *104 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:21:09 [notice] 36496#33940: exiting
+2018/10/18 15:21:09 [notice] 36496#41584: exit
+2018/10/18 15:21:09 [notice] 39304#34520: worker process 36496 exited with code 0
+2018/10/18 15:21:10 [error] 42388#42480: *105 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:21:26 [info] 42388#42480: *106 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:21:26 [info] 42388#42480: *107 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:21:50 [notice] 42868#40984: signal process started
+2018/10/18 15:21:50 [notice] 39304#34520: reconfiguring
+2018/10/18 15:21:50 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:21:50 [notice] 39304#34520: start worker processes
+2018/10/18 15:21:50 [notice] 39304#34520: start worker process 42528
+2018/10/18 15:21:50 [notice] 42528#41096: nginx/1.14.0
+2018/10/18 15:21:50 [info] 42528#41096: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:21:50 [notice] 42528#41096: create thread 41296
+2018/10/18 15:21:50 [notice] 42388#42880: gracefully shutting down
+2018/10/18 15:21:50 [notice] 42528#41096: create thread 12816
+2018/10/18 15:21:50 [notice] 42388#42420: exiting
+2018/10/18 15:21:50 [notice] 42528#41096: create thread 42084
+2018/10/18 15:21:55 [info] 42388#42480: *108 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:21:55 [notice] 42388#42480: exiting
+2018/10/18 15:21:55 [notice] 42388#42880: exit
+2018/10/18 15:21:55 [notice] 39304#34520: worker process 42388 exited with code 0
+2018/10/18 15:21:55 [error] 42528#41296: *109 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:22:33 [notice] 42128#39124: signal process started
+2018/10/18 15:22:34 [notice] 39304#34520: reconfiguring
+2018/10/18 15:22:34 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:22:34 [notice] 39304#34520: start worker processes
+2018/10/18 15:22:34 [notice] 39304#34520: start worker process 41204
+2018/10/18 15:22:34 [notice] 41204#42404: nginx/1.14.0
+2018/10/18 15:22:34 [info] 41204#42404: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:22:34 [notice] 41204#42404: create thread 34408
+2018/10/18 15:22:34 [notice] 42528#41096: gracefully shutting down
+2018/10/18 15:22:34 [notice] 41204#42404: create thread 32912
+2018/10/18 15:22:34 [notice] 42528#12816: exiting
+2018/10/18 15:22:34 [notice] 41204#42404: create thread 36848
+2018/10/18 15:22:34 [info] 42528#41296: *110 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:22:34 [info] 42528#41296: *111 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:22:34 [notice] 42528#41296: exiting
+2018/10/18 15:22:34 [notice] 42528#41096: exit
+2018/10/18 15:22:34 [notice] 39304#34520: worker process 42528 exited with code 0
+2018/10/18 15:22:57 [info] 41204#34408: *113 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:23:24 [notice] 42544#42332: signal process started
+2018/10/18 15:23:24 [notice] 39304#34520: reconfiguring
+2018/10/18 15:23:24 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:23:24 [notice] 39304#34520: start worker processes
+2018/10/18 15:23:24 [notice] 39304#34520: start worker process 42076
+2018/10/18 15:23:24 [notice] 42076#42388: nginx/1.14.0
+2018/10/18 15:23:24 [info] 42076#42388: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:23:24 [notice] 42076#42388: create thread 42220
+2018/10/18 15:23:25 [notice] 41204#42404: gracefully shutting down
+2018/10/18 15:23:25 [notice] 41204#32912: exiting
+2018/10/18 15:23:24 [notice] 42076#42388: create thread 42736
+2018/10/18 15:23:24 [notice] 42076#42388: create thread 42524
+2018/10/18 15:23:29 [info] 41204#34408: *114 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:23:29 [notice] 41204#34408: exiting
+2018/10/18 15:23:29 [notice] 41204#42404: exit
+2018/10/18 15:23:29 [notice] 39304#34520: worker process 41204 exited with code 0
+2018/10/18 15:23:29 [error] 42076#42220: *115 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:23:36 [error] 42076#42220: *115 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:24:19 [notice] 42200#42164: signal process started
+2018/10/18 15:24:19 [notice] 39304#34520: reconfiguring
+2018/10/18 15:24:19 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:24:19 [notice] 39304#34520: start worker processes
+2018/10/18 15:24:19 [notice] 39304#34520: start worker process 29128
+2018/10/18 15:24:20 [notice] 29128#42052: nginx/1.14.0
+2018/10/18 15:24:20 [info] 29128#42052: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:24:20 [notice] 29128#42052: create thread 40652
+2018/10/18 15:24:20 [notice] 42076#42388: gracefully shutting down
+2018/10/18 15:24:20 [notice] 29128#42052: create thread 37956
+2018/10/18 15:24:20 [notice] 42076#42736: exiting
+2018/10/18 15:24:20 [notice] 29128#42052: create thread 40884
+2018/10/18 15:24:25 [info] 42076#42220: *116 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:24:25 [info] 42076#42220: *117 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:24:25 [notice] 42076#42220: exiting
+2018/10/18 15:24:25 [notice] 42076#42388: exit
+2018/10/18 15:24:25 [notice] 39304#34520: worker process 42076 exited with code 0
+2018/10/18 15:24:41 [info] 29128#40652: *119 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:24:41 [info] 29128#40652: *120 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:24:41 [error] 29128#40652: *118 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:25:09 [info] 29128#40652: *121 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:26:09 [info] 29128#40652: *122 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:26:17 [notice] 36496#42848: signal process started
+2018/10/18 15:26:17 [notice] 39304#34520: reconfiguring
+2018/10/18 15:26:17 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:26:17 [notice] 39304#34520: start worker processes
+2018/10/18 15:26:17 [notice] 39304#34520: start worker process 42364
+2018/10/18 15:26:17 [notice] 42364#39588: nginx/1.14.0
+2018/10/18 15:26:17 [info] 42364#39588: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:26:17 [notice] 29128#42052: gracefully shutting down
+2018/10/18 15:26:17 [notice] 42364#39588: create thread 42404
+2018/10/18 15:26:17 [notice] 29128#37956: exiting
+2018/10/18 15:26:17 [notice] 42364#39588: create thread 41756
+2018/10/18 15:26:17 [notice] 42364#39588: create thread 41304
+2018/10/18 15:26:17 [notice] 29128#40652: exiting
+2018/10/18 15:26:17 [notice] 29128#42052: exit
+2018/10/18 15:26:17 [notice] 39304#34520: worker process 29128 exited with code 0
+2018/10/18 15:26:35 [info] 42364#42404: *124 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:26:35 [info] 42364#42404: *125 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:26:48 [info] 42364#42404: *126 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:27:49 [info] 42364#42404: *127 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:28:25 [notice] 43004#41728: signal process started
+2018/10/18 15:28:25 [notice] 39304#34520: reconfiguring
+2018/10/18 15:28:25 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:28:25 [notice] 39304#34520: start worker processes
+2018/10/18 15:28:25 [notice] 39304#34520: start worker process 42952
+2018/10/18 15:28:26 [notice] 42952#42356: nginx/1.14.0
+2018/10/18 15:28:26 [info] 42952#42356: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:28:26 [notice] 42952#42356: create thread 42220
+2018/10/18 15:28:26 [notice] 42364#39588: gracefully shutting down
+2018/10/18 15:28:26 [notice] 42364#41756: exiting
+2018/10/18 15:28:26 [notice] 42952#42356: create thread 42736
+2018/10/18 15:28:26 [notice] 42952#42356: create thread 40516
+2018/10/18 15:28:26 [notice] 42364#42404: exiting
+2018/10/18 15:28:26 [notice] 42364#39588: exit
+2018/10/18 15:28:26 [notice] 39304#34520: worker process 42364 exited with code 0
+2018/10/18 15:28:59 [info] 42952#42220: *128 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 15:28:59 [info] 42952#42220: *129 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2018/10/18 15:28:59 [info] 42952#42220: *131 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:28:59 [error] 42952#42220: *130 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:29:05 [error] 42952#42220: *130 directory index of "D:/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:29:32 [info] 42952#42220: *132 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:29:58 [info] 42952#42220: *133 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:30:05 [error] 42952#42220: *130 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:30:19 [info] 42952#42220: *134 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:30:19 [error] 42952#42220: *130 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:30:52 [info] 42952#42220: *135 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:31:14 [notice] 42740#41880: signal process started
+2018/10/18 15:31:14 [notice] 39304#34520: reconfiguring
+2018/10/18 15:31:14 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:31:14 [notice] 39304#34520: start worker processes
+2018/10/18 15:31:14 [notice] 39304#34520: start worker process 42096
+2018/10/18 15:31:14 [notice] 42096#42216: nginx/1.14.0
+2018/10/18 15:31:14 [info] 42096#42216: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:31:14 [notice] 42096#42216: create thread 42760
+2018/10/18 15:31:14 [notice] 42952#42356: gracefully shutting down
+2018/10/18 15:31:14 [notice] 42952#42736: exiting
+2018/10/18 15:31:14 [notice] 42096#42216: create thread 40112
+2018/10/18 15:31:14 [notice] 42096#42216: create thread 41584
+2018/10/18 15:31:19 [info] 42952#42220: *136 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:31:19 [notice] 42952#42220: exiting
+2018/10/18 15:31:19 [notice] 42952#42356: exit
+2018/10/18 15:31:19 [notice] 39304#34520: worker process 42952 exited with code 0
+2018/10/18 15:31:30 [info] 42096#42760: *138 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:31:30 [info] 42096#42760: *139 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:31:30 [error] 42096#42760: *137 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:32:04 [info] 42096#42760: *140 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:32:10 [notice] 33672#40456: signal process started
+2018/10/18 15:32:10 [notice] 39304#34520: reconfiguring
+2018/10/18 15:32:10 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:32:10 [notice] 39304#34520: start worker processes
+2018/10/18 15:32:10 [notice] 39304#34520: start worker process 42220
+2018/10/18 15:32:10 [notice] 42220#40200: nginx/1.14.0
+2018/10/18 15:32:10 [info] 42220#40200: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:32:10 [notice] 42096#42216: gracefully shutting down
+2018/10/18 15:32:10 [notice] 42220#40200: create thread 38432
+2018/10/18 15:32:10 [notice] 42096#40112: exiting
+2018/10/18 15:32:10 [notice] 42220#40200: create thread 34408
+2018/10/18 15:32:10 [notice] 42220#40200: create thread 42284
+2018/10/18 15:32:14 [error] 42096#42760: *141 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:32:14 [notice] 42096#42760: exiting
+2018/10/18 15:32:14 [notice] 42096#42216: exit
+2018/10/18 15:32:14 [notice] 39304#34520: worker process 42096 exited with code 0
+2018/10/18 15:32:29 [info] 42220#38432: *143 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:32:29 [error] 42220#38432: *142 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:32:32 [error] 42220#38432: *142 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:32:37 [error] 42220#38432: *142 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:32:40 [info] 42220#38432: *144 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:33:26 [notice] 43500#43504: signal process started
+2018/10/18 15:33:26 [notice] 39304#34520: reconfiguring
+2018/10/18 15:33:26 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:33:26 [notice] 39304#34520: start worker processes
+2018/10/18 15:33:26 [notice] 39304#34520: start worker process 43524
+2018/10/18 15:33:26 [notice] 43524#43528: nginx/1.14.0
+2018/10/18 15:33:26 [info] 43524#43528: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:33:26 [notice] 43524#43528: create thread 43572
+2018/10/18 15:33:26 [notice] 42220#40200: gracefully shutting down
+2018/10/18 15:33:26 [notice] 42220#34408: exiting
+2018/10/18 15:33:26 [notice] 43524#43528: create thread 43576
+2018/10/18 15:33:26 [notice] 43524#43528: create thread 43580
+2018/10/18 15:33:32 [info] 42220#38432: *145 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:33:32 [notice] 42220#38432: exiting
+2018/10/18 15:33:32 [notice] 42220#40200: exit
+2018/10/18 15:33:32 [notice] 39304#34520: worker process 42220 exited with code 0
+2018/10/18 15:33:32 [error] 43524#43572: *146 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:34:19 [notice] 35084#42368: signal process started
+2018/10/18 15:34:19 [notice] 39304#34520: reconfiguring
+2018/10/18 15:34:19 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:34:19 [notice] 39304#34520: start worker processes
+2018/10/18 15:34:19 [notice] 39304#34520: start worker process 39824
+2018/10/18 15:34:20 [notice] 39824#41896: nginx/1.14.0
+2018/10/18 15:34:20 [info] 39824#41896: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:34:20 [notice] 43524#43528: gracefully shutting down
+2018/10/18 15:34:20 [notice] 39824#41896: create thread 43076
+2018/10/18 15:34:20 [notice] 43524#43576: exiting
+2018/10/18 15:34:20 [notice] 39824#41896: create thread 43080
+2018/10/18 15:34:20 [notice] 39824#41896: create thread 41880
+2018/10/18 15:34:25 [info] 43524#43572: *147 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:34:25 [info] 43524#43572: *148 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:34:25 [notice] 43524#43572: exiting
+2018/10/18 15:34:25 [notice] 43524#43528: exit
+2018/10/18 15:34:25 [notice] 39304#34520: worker process 43524 exited with code 0
+2018/10/18 15:34:26 [error] 39824#43076: *149 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:35:25 [info] 39824#43076: *150 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:35:59 [notice] 43400#42784: signal process started
+2018/10/18 15:35:59 [notice] 39304#34520: reconfiguring
+2018/10/18 15:35:59 [notice] 39304#34520: using the "select" event method
+2018/10/18 15:35:59 [notice] 39304#34520: start worker processes
+2018/10/18 15:35:59 [notice] 39304#34520: start worker process 43904
+2018/10/18 15:35:59 [notice] 43904#43908: nginx/1.14.0
+2018/10/18 15:35:59 [info] 43904#43908: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:35:59 [notice] 39824#41896: gracefully shutting down
+2018/10/18 15:35:59 [notice] 43904#43908: create thread 43940
+2018/10/18 15:35:59 [notice] 39824#43080: exiting
+2018/10/18 15:35:59 [notice] 43904#43908: create thread 43844
+2018/10/18 15:35:59 [notice] 43904#43908: create thread 43836
+2018/10/18 15:35:59 [notice] 39824#43076: exiting
+2018/10/18 15:35:59 [notice] 39824#41896: exit
+2018/10/18 15:35:59 [notice] 39304#34520: worker process 39824 exited with code 0
+2018/10/18 15:36:14 [error] 43904#43940: *151 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:36:20 [info] 43904#43940: *152 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:36:52 [notice] 43172#43176: signal process started
+2018/10/18 15:36:52 [notice] 39304#34520: exiting
+2018/10/18 15:36:52 [notice] 43904#43908: gracefully shutting down
+2018/10/18 15:36:52 [notice] 43904#43844: exiting
+2018/10/18 15:36:53 [notice] 43672#43248: signal process started
+2018/10/18 15:36:53 [notice] 39304#34520: exiting
+2018/10/18 15:36:54 [notice] 43208#39532: signal process started
+2018/10/18 15:36:54 [notice] 39304#34520: exiting
+2018/10/18 15:36:55 [notice] 41268#43468: signal process started
+2018/10/18 15:36:55 [notice] 39304#34520: exiting
+2018/10/18 15:36:55 [notice] 43212#43224: signal process started
+2018/10/18 15:36:55 [notice] 39304#34520: exiting
+2018/10/18 15:36:56 [notice] 43880#43876: signal process started
+2018/10/18 15:36:56 [notice] 39304#34520: exiting
+2018/10/18 15:36:57 [notice] 43388#43392: signal process started
+2018/10/18 15:36:57 [notice] 39304#34520: exiting
+2018/10/18 15:36:57 [notice] 39304#34520: exit
+2018/10/18 15:36:57 [notice] 43852#43076: signal process started
+2018/10/18 15:36:57 [error] 43852#43076: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 15:37:01 [notice] 41408#43948: signal process started
+2018/10/18 15:37:01 [error] 41408#43948: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 15:37:06 [notice] 39824#42348: signal process started
+2018/10/18 15:37:06 [error] 39824#42348: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 15:38:07 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:38:07 [notice] 29012#43416: nginx/1.14.0
+2018/10/18 15:38:07 [info] 29012#43416: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:38:07 [notice] 29012#43416: start worker processes
+2018/10/18 15:38:07 [notice] 29012#43416: start worker process 43348
+2018/10/18 15:38:07 [notice] 43348#43432: nginx/1.14.0
+2018/10/18 15:38:07 [info] 43348#43432: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:38:07 [notice] 43348#43432: create thread 43428
+2018/10/18 15:38:07 [notice] 43348#43432: create thread 43368
+2018/10/18 15:38:07 [notice] 43348#43432: create thread 43840
+2018/10/18 15:39:14 [info] 43348#43428: *1 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:39:14 [info] 43348#43428: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:39:32 [info] 43348#43428: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:39:32 [error] 43348#43428: *3 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:39:49 [info] 43348#43428: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:39:49 [error] 43348#43428: *3 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:40:50 [info] 43348#43428: *6 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:42:17 [notice] 43144#42880: signal process started
+2018/10/18 15:42:17 [notice] 29012#43416: reconfiguring
+2018/10/18 15:42:17 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:42:17 [notice] 29012#43416: start worker processes
+2018/10/18 15:42:17 [notice] 29012#43416: start worker process 42100
+2018/10/18 15:42:17 [notice] 42100#41296: nginx/1.14.0
+2018/10/18 15:42:17 [info] 42100#41296: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:42:17 [notice] 42100#41296: create thread 43424
+2018/10/18 15:42:17 [notice] 43348#43432: gracefully shutting down
+2018/10/18 15:42:17 [notice] 42100#41296: create thread 43872
+2018/10/18 15:42:17 [notice] 43348#43368: exiting
+2018/10/18 15:42:17 [notice] 42100#41296: create thread 43056
+2018/10/18 15:42:17 [notice] 43348#43428: exiting
+2018/10/18 15:42:17 [notice] 43348#43432: exit
+2018/10/18 15:42:17 [notice] 29012#43416: worker process 43348 exited with code 0
+2018/10/18 15:42:24 [error] 42100#43424: *7 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:42:29 [error] 42100#43424: *7 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:42:35 [info] 42100#43424: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:42:35 [info] 42100#43424: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:42:50 [info] 42100#43424: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:43:00 [error] 42100#43424: *7 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:43:04 [info] 42100#43424: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:43:35 [notice] 43620#43268: signal process started
+2018/10/18 15:43:35 [notice] 29012#43416: reconfiguring
+2018/10/18 15:43:35 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:43:35 [notice] 29012#43416: start worker processes
+2018/10/18 15:43:35 [notice] 29012#43416: start worker process 43092
+2018/10/18 15:43:35 [notice] 43092#43548: nginx/1.14.0
+2018/10/18 15:43:35 [info] 43092#43548: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:43:35 [notice] 42100#41296: gracefully shutting down
+2018/10/18 15:43:35 [notice] 43092#43548: create thread 43844
+2018/10/18 15:43:35 [notice] 42100#43872: exiting
+2018/10/18 15:43:35 [notice] 43092#43548: create thread 40128
+2018/10/18 15:43:35 [notice] 43092#43548: create thread 32600
+2018/10/18 15:43:39 [info] 42100#43424: *12 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:43:39 [notice] 42100#43424: exiting
+2018/10/18 15:43:39 [notice] 42100#41296: exit
+2018/10/18 15:43:39 [notice] 29012#43416: worker process 42100 exited with code 0
+2018/10/18 15:43:54 [info] 43092#43844: *14 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:43:54 [info] 43092#43844: *15 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:44:06 [info] 43092#43844: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:44:17 [info] 43092#43844: *18 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:44:17 [info] 43092#43844: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:44:23 [info] 43092#43844: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:44:28 [error] 43092#43844: *13 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:44:34 [info] 43092#43844: *21 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:44:38 [error] 43092#43844: *13 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:45:34 [info] 43092#43844: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:45:48 [error] 43092#43844: *23 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:45:49 [error] 43092#43844: *23 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:46:48 [info] 43092#43844: *24 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:46:48 [info] 43092#43844: *25 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:47:04 [notice] 42356#43656: signal process started
+2018/10/18 15:47:04 [notice] 29012#43416: reconfiguring
+2018/10/18 15:47:04 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:47:04 [notice] 29012#43416: start worker processes
+2018/10/18 15:47:04 [notice] 29012#43416: start worker process 43136
+2018/10/18 15:47:04 [notice] 43136#34520: nginx/1.14.0
+2018/10/18 15:47:04 [info] 43136#34520: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:47:04 [notice] 43136#34520: create thread 42364
+2018/10/18 15:47:04 [notice] 43092#43548: gracefully shutting down
+2018/10/18 15:47:04 [notice] 43136#34520: create thread 43696
+2018/10/18 15:47:04 [notice] 43092#40128: exiting
+2018/10/18 15:47:04 [notice] 43136#34520: create thread 43144
+2018/10/18 15:47:04 [notice] 43092#43844: exiting
+2018/10/18 15:47:04 [notice] 43092#43548: exit
+2018/10/18 15:47:04 [notice] 29012#43416: worker process 43092 exited with code 0
+2018/10/18 15:47:53 [notice] 43908#34408: signal process started
+2018/10/18 15:47:53 [notice] 29012#43416: reconfiguring
+2018/10/18 15:47:53 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:47:53 [notice] 29012#43416: start worker processes
+2018/10/18 15:47:53 [notice] 29012#43416: start worker process 39820
+2018/10/18 15:47:54 [notice] 39820#43260: nginx/1.14.0
+2018/10/18 15:47:54 [info] 39820#43260: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:47:54 [notice] 39820#43260: create thread 43424
+2018/10/18 15:47:54 [notice] 43136#34520: gracefully shutting down
+2018/10/18 15:47:54 [notice] 39820#43260: create thread 43340
+2018/10/18 15:47:54 [notice] 43136#43696: exiting
+2018/10/18 15:47:54 [notice] 39820#43260: create thread 43620
+2018/10/18 15:47:57 [info] 43136#42364: *27 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:47:57 [info] 43136#42364: *28 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:47:57 [notice] 43136#42364: exiting
+2018/10/18 15:47:57 [notice] 43136#34520: exit
+2018/10/18 15:47:57 [notice] 29012#43416: worker process 43136 exited with code 0
+2018/10/18 15:47:58 [error] 39820#43424: *29 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:48:03 [error] 39820#43424: *29 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config// HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:48:11 [info] 39820#43424: *30 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:48:11 [info] 39820#43424: *31 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:48:31 [notice] 42356#43836: signal process started
+2018/10/18 15:48:31 [notice] 29012#43416: reconfiguring
+2018/10/18 15:48:31 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:48:31 [notice] 29012#43416: start worker processes
+2018/10/18 15:48:31 [notice] 29012#43416: start worker process 43712
+2018/10/18 15:48:31 [notice] 43712#43180: nginx/1.14.0
+2018/10/18 15:48:31 [info] 43712#43180: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:48:31 [notice] 43712#43180: create thread 43096
+2018/10/18 15:48:31 [notice] 39820#43260: gracefully shutting down
+2018/10/18 15:48:31 [notice] 43712#43180: create thread 43124
+2018/10/18 15:48:31 [notice] 39820#43340: exiting
+2018/10/18 15:48:31 [notice] 43712#43180: create thread 43472
+2018/10/18 15:48:34 [info] 39820#43424: *32 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:48:34 [notice] 39820#43424: exiting
+2018/10/18 15:48:34 [notice] 39820#43260: exit
+2018/10/18 15:48:34 [notice] 29012#43416: worker process 39820 exited with code 0
+2018/10/18 15:48:34 [error] 43712#43096: *33 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:48:45 [info] 43712#43096: *34 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:48:45 [info] 43712#43096: *35 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:48:45 [error] 43712#43096: *33 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:02 [notice] 43880#43516: signal process started
+2018/10/18 15:49:02 [notice] 29012#43416: reconfiguring
+2018/10/18 15:49:02 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:49:02 [notice] 29012#43416: start worker processes
+2018/10/18 15:49:02 [notice] 29012#43416: start worker process 43652
+2018/10/18 15:49:03 [notice] 43652#42348: nginx/1.14.0
+2018/10/18 15:49:03 [info] 43652#42348: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:49:03 [notice] 43652#42348: create thread 35084
+2018/10/18 15:49:03 [notice] 43712#43180: gracefully shutting down
+2018/10/18 15:49:03 [notice] 43712#43124: exiting
+2018/10/18 15:49:03 [notice] 43652#42348: create thread 43904
+2018/10/18 15:49:03 [notice] 43652#42348: create thread 43664
+2018/10/18 15:49:06 [info] 43712#43096: *36 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:49:06 [notice] 43712#43096: exiting
+2018/10/18 15:49:06 [notice] 43712#43180: exit
+2018/10/18 15:49:06 [notice] 29012#43416: worker process 43712 exited with code 0
+2018/10/18 15:49:10 [error] 43652#35084: *37 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:17 [info] 43652#35084: *38 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:49:22 [error] 43652#35084: *37 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:29 [info] 43652#35084: *39 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:49:29 [error] 43652#35084: *37 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:35 [notice] 43716#43256: signal process started
+2018/10/18 15:49:35 [notice] 29012#43416: reconfiguring
+2018/10/18 15:49:35 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:49:35 [notice] 29012#43416: start worker processes
+2018/10/18 15:49:35 [notice] 29012#43416: start worker process 43828
+2018/10/18 15:49:36 [notice] 43828#42780: nginx/1.14.0
+2018/10/18 15:49:36 [info] 43828#42780: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:49:36 [notice] 43828#42780: create thread 40128
+2018/10/18 15:49:36 [notice] 43652#42348: gracefully shutting down
+2018/10/18 15:49:36 [notice] 43652#43904: exiting
+2018/10/18 15:49:36 [notice] 43828#42780: create thread 43844
+2018/10/18 15:49:36 [notice] 43828#42780: create thread 43836
+2018/10/18 15:49:39 [error] 43652#35084: *40 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:39 [notice] 43652#35084: exiting
+2018/10/18 15:49:39 [notice] 43652#42348: exit
+2018/10/18 15:49:39 [notice] 29012#43416: worker process 43652 exited with code 0
+2018/10/18 15:49:40 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:40 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:41 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:41 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:41 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:41 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:49:43 [error] 43828#40128: *41 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:15 [notice] 39528#38200: signal process started
+2018/10/18 15:50:15 [notice] 29012#43416: reconfiguring
+2018/10/18 15:50:15 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:50:15 [notice] 29012#43416: start worker processes
+2018/10/18 15:50:15 [notice] 29012#43416: start worker process 24552
+2018/10/18 15:50:15 [notice] 24552#42284: nginx/1.14.0
+2018/10/18 15:50:15 [info] 24552#42284: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:50:15 [notice] 43828#42780: gracefully shutting down
+2018/10/18 15:50:15 [notice] 24552#42284: create thread 43512
+2018/10/18 15:50:15 [notice] 43828#43844: exiting
+2018/10/18 15:50:15 [notice] 24552#42284: create thread 43076
+2018/10/18 15:50:15 [notice] 24552#42284: create thread 42224
+2018/10/18 15:50:17 [info] 43828#40128: *42 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:50:17 [notice] 43828#40128: exiting
+2018/10/18 15:50:17 [notice] 43828#42780: exit
+2018/10/18 15:50:17 [notice] 29012#43416: worker process 43828 exited with code 0
+2018/10/18 15:50:18 [error] 24552#43512: *43 "D:/config1/config1/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:20 [error] 24552#43512: *43 "D:/config1/config1/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:20 [error] 24552#43512: *43 "D:/config1/config1/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:21 [error] 24552#43512: *43 "D:/config1/config1/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:22 [error] 24552#43512: *43 "D:/config1/config1/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:24 [error] 24552#43512: *43 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:28 [info] 24552#43512: *44 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:50:28 [info] 24552#43512: *45 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:50:28 [error] 24552#43512: *43 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:33 [error] 24552#43512: *43 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:50:51 [notice] 43816#43368: signal process started
+2018/10/18 15:50:51 [notice] 29012#43416: reconfiguring
+2018/10/18 15:50:51 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:50:51 [notice] 29012#43416: start worker processes
+2018/10/18 15:50:51 [notice] 29012#43416: start worker process 42888
+2018/10/18 15:50:51 [notice] 42888#40432: nginx/1.14.0
+2018/10/18 15:50:51 [info] 42888#40432: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:50:51 [notice] 42888#40432: create thread 40412
+2018/10/18 15:50:51 [notice] 24552#42284: gracefully shutting down
+2018/10/18 15:50:51 [notice] 42888#40432: create thread 41540
+2018/10/18 15:50:51 [notice] 24552#43076: exiting
+2018/10/18 15:50:51 [notice] 42888#40432: create thread 40988
+2018/10/18 15:50:56 [info] 24552#43512: *46 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:50:56 [notice] 24552#43512: exiting
+2018/10/18 15:50:56 [notice] 24552#42284: exit
+2018/10/18 15:50:56 [notice] 29012#43416: worker process 24552 exited with code 0
+2018/10/18 15:51:03 [error] 42888#40412: *47 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:51:11 [info] 42888#40412: *48 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:51:11 [error] 42888#40412: *47 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:51:29 [info] 42888#40412: *49 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:51:29 [info] 42888#40412: *51 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:51:29 [info] 42888#40412: *52 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 15:51:37 [error] 42888#40412: *47 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:08 [info] 42888#40412: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:52:08 [error] 42888#40412: *47 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:20 [info] 42888#40412: *54 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:52:20 [error] 42888#40412: *47 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:29 [notice] 42288#43336: signal process started
+2018/10/18 15:52:29 [notice] 29012#43416: reconfiguring
+2018/10/18 15:52:29 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:52:29 [notice] 29012#43416: start worker processes
+2018/10/18 15:52:29 [notice] 29012#43416: start worker process 40488
+2018/10/18 15:52:30 [notice] 40488#37956: nginx/1.14.0
+2018/10/18 15:52:30 [info] 40488#37956: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:52:30 [notice] 40488#37956: create thread 41268
+2018/10/18 15:52:30 [notice] 42888#40432: gracefully shutting down
+2018/10/18 15:52:30 [notice] 40488#37956: create thread 42896
+2018/10/18 15:52:30 [notice] 42888#41540: exiting
+2018/10/18 15:52:30 [notice] 40488#37956: create thread 41932
+2018/10/18 15:52:34 [info] 42888#40412: *55 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:52:34 [notice] 42888#40412: exiting
+2018/10/18 15:52:34 [notice] 42888#40432: exit
+2018/10/18 15:52:34 [notice] 29012#43416: worker process 42888 exited with code 0
+2018/10/18 15:52:34 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:36 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:37 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:37 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:38 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:38 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:39 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:39 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:39 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:39 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:39 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:40 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:40 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:52:44 [info] 40488#41268: *57 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:52:44 [info] 40488#41268: *58 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:52:44 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:53:07 [info] 40488#41268: *59 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:53:11 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:53:22 [info] 40488#41268: *60 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:53:22 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:53:29 [error] 40488#41268: *56 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:54:04 [notice] 41540#40988: signal process started
+2018/10/18 15:54:04 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:04 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:04 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:04 [notice] 29012#43416: start worker process 41144
+2018/10/18 15:54:04 [notice] 41144#26140: nginx/1.14.0
+2018/10/18 15:54:04 [info] 41144#26140: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:04 [notice] 41144#26140: create thread 30292
+2018/10/18 15:54:04 [notice] 40488#37956: gracefully shutting down
+2018/10/18 15:54:04 [notice] 41144#26140: create thread 43644
+2018/10/18 15:54:04 [notice] 40488#42896: exiting
+2018/10/18 15:54:04 [notice] 41144#26140: create thread 41408
+2018/10/18 15:54:05 [notice] 42784#43728: signal process started
+2018/10/18 15:54:05 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:05 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:05 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:05 [notice] 29012#43416: start worker process 43020
+2018/10/18 15:54:05 [notice] 43020#44012: nginx/1.14.0
+2018/10/18 15:54:05 [info] 43020#44012: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:05 [notice] 43020#44012: create thread 34388
+2018/10/18 15:54:05 [notice] 41144#26140: gracefully shutting down
+2018/10/18 15:54:05 [notice] 43020#44012: create thread 43496
+2018/10/18 15:54:05 [notice] 41144#43644: exiting
+2018/10/18 15:54:05 [notice] 43020#44012: create thread 42948
+2018/10/18 15:54:06 [notice] 41144#30292: exiting
+2018/10/18 15:54:06 [notice] 41144#26140: exit
+2018/10/18 15:54:06 [notice] 29012#43416: worker process 41144 exited with code 0
+2018/10/18 15:54:06 [notice] 32600#43844: signal process started
+2018/10/18 15:54:06 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:06 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:06 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:06 [notice] 29012#43416: start worker process 42528
+2018/10/18 15:54:06 [notice] 42528#43192: nginx/1.14.0
+2018/10/18 15:54:06 [info] 42528#43192: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:06 [notice] 43020#44012: gracefully shutting down
+2018/10/18 15:54:06 [notice] 42528#43192: create thread 43964
+2018/10/18 15:54:06 [notice] 43020#43496: exiting
+2018/10/18 15:54:06 [notice] 42528#43192: create thread 42268
+2018/10/18 15:54:06 [notice] 42528#43192: create thread 43692
+2018/10/18 15:54:06 [notice] 43020#34388: exiting
+2018/10/18 15:54:06 [notice] 43020#44012: exit
+2018/10/18 15:54:06 [notice] 29012#43416: worker process 43020 exited with code 0
+2018/10/18 15:54:07 [notice] 42780#43828: signal process started
+2018/10/18 15:54:07 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:07 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:07 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:07 [notice] 29012#43416: start worker process 43676
+2018/10/18 15:54:07 [notice] 43676#43808: nginx/1.14.0
+2018/10/18 15:54:07 [info] 43676#43808: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:07 [notice] 43676#43808: create thread 43152
+2018/10/18 15:54:07 [notice] 42528#43192: gracefully shutting down
+2018/10/18 15:54:07 [notice] 43676#43808: create thread 43296
+2018/10/18 15:54:07 [notice] 42528#42268: exiting
+2018/10/18 15:54:07 [notice] 43676#43808: create thread 42224
+2018/10/18 15:54:07 [notice] 42528#43964: exiting
+2018/10/18 15:54:07 [notice] 42528#43192: exit
+2018/10/18 15:54:07 [notice] 29012#43416: worker process 42528 exited with code 0
+2018/10/18 15:54:07 [notice] 41648#43848: signal process started
+2018/10/18 15:54:07 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:07 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:07 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:07 [notice] 29012#43416: start worker process 43052
+2018/10/18 15:54:07 [notice] 43052#43836: nginx/1.14.0
+2018/10/18 15:54:07 [info] 43052#43836: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:07 [notice] 43052#43836: create thread 43884
+2018/10/18 15:54:08 [notice] 43676#43808: gracefully shutting down
+2018/10/18 15:54:07 [notice] 43052#43836: create thread 43016
+2018/10/18 15:54:08 [notice] 43676#43296: exiting
+2018/10/18 15:54:07 [notice] 43052#43836: create thread 35084
+2018/10/18 15:54:08 [notice] 43676#43152: exiting
+2018/10/18 15:54:08 [notice] 43676#43808: exit
+2018/10/18 15:54:08 [notice] 29012#43416: worker process 43676 exited with code 0
+2018/10/18 15:54:08 [notice] 43616#43468: signal process started
+2018/10/18 15:54:08 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:08 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:08 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:08 [notice] 29012#43416: start worker process 43872
+2018/10/18 15:54:08 [notice] 43872#43348: nginx/1.14.0
+2018/10/18 15:54:08 [info] 43872#43348: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:08 [notice] 43052#43836: gracefully shutting down
+2018/10/18 15:54:08 [notice] 43872#43348: create thread 42000
+2018/10/18 15:54:08 [notice] 43052#43016: exiting
+2018/10/18 15:54:08 [notice] 43872#43348: create thread 43552
+2018/10/18 15:54:08 [notice] 43872#43348: create thread 43240
+2018/10/18 15:54:09 [notice] 43052#43884: exiting
+2018/10/18 15:54:09 [notice] 43052#43836: exit
+2018/10/18 15:54:09 [notice] 29012#43416: worker process 43052 exited with code 0
+2018/10/18 15:54:09 [notice] 43876#40228: signal process started
+2018/10/18 15:54:09 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:09 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:09 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:09 [notice] 29012#43416: start worker process 36976
+2018/10/18 15:54:09 [notice] 36976#43936: nginx/1.14.0
+2018/10/18 15:54:09 [info] 36976#43936: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:09 [notice] 36976#43936: create thread 36172
+2018/10/18 15:54:09 [notice] 43872#43348: gracefully shutting down
+2018/10/18 15:54:09 [notice] 43872#43552: exiting
+2018/10/18 15:54:09 [notice] 36976#43936: create thread 43024
+2018/10/18 15:54:09 [notice] 36976#43936: create thread 43424
+2018/10/18 15:54:09 [notice] 43872#42000: exiting
+2018/10/18 15:54:09 [notice] 43872#43348: exit
+2018/10/18 15:54:09 [notice] 29012#43416: worker process 43872 exited with code 0
+2018/10/18 15:54:09 [notice] 43340#42448: signal process started
+2018/10/18 15:54:10 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:10 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:10 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:10 [notice] 29012#43416: start worker process 43684
+2018/10/18 15:54:10 [notice] 43684#43780: nginx/1.14.0
+2018/10/18 15:54:10 [info] 43684#43780: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:10 [notice] 43684#43780: create thread 43652
+2018/10/18 15:54:10 [notice] 36976#43936: gracefully shutting down
+2018/10/18 15:54:10 [notice] 43684#43780: create thread 42096
+2018/10/18 15:54:10 [notice] 36976#43024: exiting
+2018/10/18 15:54:10 [notice] 43684#43780: create thread 43156
+2018/10/18 15:54:10 [notice] 36976#36172: exiting
+2018/10/18 15:54:10 [notice] 36976#43936: exit
+2018/10/18 15:54:10 [notice] 29012#43416: worker process 36976 exited with code 0
+2018/10/18 15:54:13 [info] 40488#41268: *61 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:13 [notice] 40488#41268: exiting
+2018/10/18 15:54:13 [notice] 40488#37956: exit
+2018/10/18 15:54:13 [notice] 29012#43416: worker process 40488 exited with code 0
+2018/10/18 15:54:14 [error] 43684#43652: *62 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:54:24 [info] 43684#43652: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:24 [info] 43684#43652: *64 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:24 [error] 43684#43652: *62 CreateFile() "D:/config1/ind" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ind HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:54:29 [error] 43684#43652: *62 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:54:39 [notice] 42932#43796: signal process started
+2018/10/18 15:54:39 [notice] 29012#43416: reconfiguring
+2018/10/18 15:54:39 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:54:39 [notice] 29012#43416: start worker processes
+2018/10/18 15:54:39 [notice] 29012#43416: start worker process 43076
+2018/10/18 15:54:40 [notice] 43076#43844: nginx/1.14.0
+2018/10/18 15:54:40 [info] 43076#43844: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:54:40 [notice] 43076#43844: create thread 41940
+2018/10/18 15:54:40 [notice] 43684#43780: gracefully shutting down
+2018/10/18 15:54:40 [notice] 43684#42096: exiting
+2018/10/18 15:54:40 [notice] 43076#43844: create thread 43428
+2018/10/18 15:54:40 [notice] 43076#43844: create thread 41584
+2018/10/18 15:54:45 [info] 43684#43652: *65 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:45 [notice] 43684#43652: exiting
+2018/10/18 15:54:45 [notice] 43684#43780: exit
+2018/10/18 15:54:45 [notice] 29012#43416: worker process 43684 exited with code 0
+2018/10/18 15:54:58 [info] 43076#41940: *66 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:58 [info] 43076#41940: *67 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:54:58 [error] 43076#41940: *68 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:55:13 [info] 43076#41940: *69 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:55:13 [info] 43076#41940: *70 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:55:13 [error] 43076#41940: *68 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:55:25 [info] 43076#41940: *71 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:55:31 [error] 43076#41940: *68 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:56:09 [notice] 43896#43804: signal process started
+2018/10/18 15:56:09 [notice] 29012#43416: reconfiguring
+2018/10/18 15:56:09 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:56:09 [notice] 29012#43416: start worker processes
+2018/10/18 15:56:09 [notice] 29012#43416: start worker process 43296
+2018/10/18 15:56:09 [notice] 43296#38828: nginx/1.14.0
+2018/10/18 15:56:09 [info] 43296#38828: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:56:09 [notice] 43296#38828: create thread 43172
+2018/10/18 15:56:09 [notice] 43076#43844: gracefully shutting down
+2018/10/18 15:56:09 [notice] 43296#38828: create thread 40412
+2018/10/18 15:56:09 [notice] 43076#43428: exiting
+2018/10/18 15:56:09 [notice] 43296#38828: create thread 41320
+2018/10/18 15:56:12 [info] 43076#41940: *72 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:56:12 [notice] 43076#41940: exiting
+2018/10/18 15:56:12 [notice] 43076#43844: exit
+2018/10/18 15:56:12 [notice] 29012#43416: worker process 43076 exited with code 0
+2018/10/18 15:56:13 [error] 43296#43172: *73 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:56:14 [error] 43296#43172: *73 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:57:13 [info] 43296#43172: *74 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:57:13 [info] 43296#43172: *75 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:57:40 [notice] 43424#42780: signal process started
+2018/10/18 15:57:40 [notice] 29012#43416: reconfiguring
+2018/10/18 15:57:40 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:57:40 [notice] 29012#43416: start worker processes
+2018/10/18 15:57:40 [notice] 29012#43416: start worker process 42088
+2018/10/18 15:57:40 [notice] 42088#43808: nginx/1.14.0
+2018/10/18 15:57:40 [info] 42088#43808: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:57:40 [notice] 42088#43808: create thread 41408
+2018/10/18 15:57:40 [notice] 43296#38828: gracefully shutting down
+2018/10/18 15:57:40 [notice] 42088#43808: create thread 43964
+2018/10/18 15:57:40 [notice] 43296#40412: exiting
+2018/10/18 15:57:40 [notice] 42088#43808: create thread 36496
+2018/10/18 15:57:41 [notice] 43296#43172: exiting
+2018/10/18 15:57:41 [notice] 43296#38828: exit
+2018/10/18 15:57:41 [notice] 29012#43416: worker process 43296 exited with code 0
+2018/10/18 15:57:52 [error] 42088#41408: *76 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 15:58:04 [info] 42088#41408: *77 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:58:04 [info] 42088#41408: *78 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:58:27 [info] 42088#41408: *79 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:59:22 [notice] 36976#43868: signal process started
+2018/10/18 15:59:22 [notice] 29012#43416: reconfiguring
+2018/10/18 15:59:22 [notice] 29012#43416: using the "select" event method
+2018/10/18 15:59:22 [notice] 29012#43416: start worker processes
+2018/10/18 15:59:22 [notice] 29012#43416: start worker process 42780
+2018/10/18 15:59:22 [notice] 42780#30784: nginx/1.14.0
+2018/10/18 15:59:22 [info] 42780#30784: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 15:59:22 [notice] 42780#30784: create thread 31892
+2018/10/18 15:59:22 [notice] 42088#43808: gracefully shutting down
+2018/10/18 15:59:22 [notice] 42088#43964: exiting
+2018/10/18 15:59:22 [notice] 42780#30784: create thread 43644
+2018/10/18 15:59:22 [notice] 42780#30784: create thread 43296
+2018/10/18 15:59:25 [info] 42088#41408: *80 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 15:59:25 [notice] 42088#41408: exiting
+2018/10/18 15:59:25 [notice] 42088#43808: exit
+2018/10/18 15:59:25 [notice] 29012#43416: worker process 42088 exited with code 0
+2018/10/18 16:00:25 [info] 42780#31892: *82 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:00:26 [info] 42780#31892: *83 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:00:53 [emerg] 43804#43288: "alias" directive is duplicate, "root" directive was specified earlier in D:\Program Files\nginx-demo\windows\nginx-1.14.0/conf/custom/proxyLocal.conf:15
+2018/10/18 16:01:19 [info] 42780#31892: *85 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:01:19 [info] 42780#31892: *86 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:02:19 [info] 42780#31892: *87 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:04:44 [notice] 38828#42356: signal process started
+2018/10/18 16:04:44 [notice] 29012#43416: reconfiguring
+2018/10/18 16:04:44 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:04:44 [notice] 29012#43416: start worker processes
+2018/10/18 16:04:44 [notice] 29012#43416: start worker process 43988
+2018/10/18 16:04:45 [notice] 43988#43032: nginx/1.14.0
+2018/10/18 16:04:45 [info] 43988#43032: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:04:45 [notice] 43988#43032: create thread 38808
+2018/10/18 16:04:45 [notice] 42780#30784: gracefully shutting down
+2018/10/18 16:04:45 [notice] 43988#43032: create thread 42492
+2018/10/18 16:04:45 [notice] 42780#43644: exiting
+2018/10/18 16:04:45 [notice] 43988#43032: create thread 43616
+2018/10/18 16:04:46 [notice] 42780#31892: exiting
+2018/10/18 16:04:46 [notice] 42780#30784: exit
+2018/10/18 16:04:46 [notice] 29012#43416: worker process 42780 exited with code 0
+2018/10/18 16:05:21 [error] 43988#38808: *88 invalid URL prefix in "/config/index.html", client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:06:21 [info] 43988#38808: *89 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:06:21 [info] 43988#38808: *90 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:06:41 [notice] 44696#44700: signal process started
+2018/10/18 16:06:41 [notice] 29012#43416: reconfiguring
+2018/10/18 16:06:41 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:06:41 [notice] 29012#43416: start worker processes
+2018/10/18 16:06:41 [notice] 29012#43416: start worker process 44720
+2018/10/18 16:06:41 [notice] 44720#44724: nginx/1.14.0
+2018/10/18 16:06:41 [info] 44720#44724: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:06:41 [notice] 44720#44724: create thread 44776
+2018/10/18 16:06:42 [notice] 43988#43032: gracefully shutting down
+2018/10/18 16:06:41 [notice] 44720#44724: create thread 44780
+2018/10/18 16:06:42 [notice] 43988#42492: exiting
+2018/10/18 16:06:41 [notice] 44720#44724: create thread 44784
+2018/10/18 16:06:42 [notice] 43988#38808: exiting
+2018/10/18 16:06:42 [notice] 43988#43032: exit
+2018/10/18 16:06:42 [notice] 29012#43416: worker process 43988 exited with code 0
+2018/10/18 16:07:15 [info] 44720#44776: *92 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:07:15 [info] 44720#44776: *93 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:07:40 [info] 44720#44776: *94 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:08:06 [info] 44720#44776: *95 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:08:41 [info] 44720#44776: *96 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:09:40 [notice] 44756#44760: signal process started
+2018/10/18 16:09:40 [notice] 29012#43416: reconfiguring
+2018/10/18 16:09:40 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:09:40 [notice] 29012#43416: start worker processes
+2018/10/18 16:09:40 [notice] 29012#43416: start worker process 44304
+2018/10/18 16:09:41 [notice] 44304#43524: nginx/1.14.0
+2018/10/18 16:09:41 [info] 44304#43524: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:09:41 [notice] 44304#43524: create thread 44344
+2018/10/18 16:09:41 [notice] 44720#44724: gracefully shutting down
+2018/10/18 16:09:41 [notice] 44304#43524: create thread 44052
+2018/10/18 16:09:41 [notice] 44720#44780: exiting
+2018/10/18 16:09:41 [notice] 44304#43524: create thread 44352
+2018/10/18 16:09:41 [info] 44720#44776: *97 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:09:41 [notice] 44720#44776: exiting
+2018/10/18 16:09:41 [notice] 44720#44724: exit
+2018/10/18 16:09:41 [notice] 29012#43416: worker process 44720 exited with code 0
+2018/10/18 16:10:45 [info] 44304#44344: *99 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:10:45 [info] 44304#44344: *100 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:29:09 [info] 44304#44344: *102 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:29:09 [info] 44304#44344: *103 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:30:10 [error] 44304#44344: *104 rewrite or internal redirection cycle while internally redirecting to "/config2/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config2/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:31:07 [notice] 39708#41548: signal process started
+2018/10/18 16:31:07 [notice] 29012#43416: reconfiguring
+2018/10/18 16:31:07 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:31:07 [notice] 29012#43416: start worker processes
+2018/10/18 16:31:07 [notice] 29012#43416: start worker process 44292
+2018/10/18 16:31:08 [notice] 44292#42596: nginx/1.14.0
+2018/10/18 16:31:08 [info] 44292#42596: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:31:08 [notice] 44292#42596: create thread 44688
+2018/10/18 16:31:08 [notice] 44304#43524: gracefully shutting down
+2018/10/18 16:31:08 [notice] 44292#42596: create thread 41376
+2018/10/18 16:31:08 [notice] 44304#44052: exiting
+2018/10/18 16:31:08 [notice] 44292#42596: create thread 44436
+2018/10/18 16:31:10 [info] 44304#44344: *105 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:31:10 [info] 44304#44344: *106 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:31:10 [notice] 44304#44344: exiting
+2018/10/18 16:31:10 [notice] 44304#43524: exit
+2018/10/18 16:31:10 [notice] 29012#43416: worker process 44304 exited with code 0
+2018/10/18 16:31:24 [info] 44292#44688: *108 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:31:24 [info] 44292#44688: *109 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:31:24 [error] 44292#44688: *107 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:31:42 [info] 44292#44688: *111 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:32:23 [notice] 44992#44580: signal process started
+2018/10/18 16:32:23 [notice] 29012#43416: reconfiguring
+2018/10/18 16:32:23 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:32:23 [notice] 29012#43416: start worker processes
+2018/10/18 16:32:23 [notice] 29012#43416: start worker process 44716
+2018/10/18 16:32:24 [notice] 44716#43368: nginx/1.14.0
+2018/10/18 16:32:24 [info] 44716#43368: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:32:24 [notice] 44716#43368: create thread 42316
+2018/10/18 16:32:24 [notice] 44292#42596: gracefully shutting down
+2018/10/18 16:32:24 [notice] 44716#43368: create thread 42496
+2018/10/18 16:32:24 [notice] 44292#41376: exiting
+2018/10/18 16:32:24 [notice] 44716#43368: create thread 44556
+2018/10/18 16:32:27 [info] 44292#44688: *112 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:32:27 [notice] 44292#44688: exiting
+2018/10/18 16:32:27 [notice] 44292#42596: exit
+2018/10/18 16:32:27 [notice] 29012#43416: worker process 44292 exited with code 0
+2018/10/18 16:32:28 [error] 44716#42316: *113 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:33:08 [notice] 31892#44212: signal process started
+2018/10/18 16:33:08 [notice] 29012#43416: reconfiguring
+2018/10/18 16:33:08 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:33:08 [notice] 29012#43416: start worker processes
+2018/10/18 16:33:08 [notice] 29012#43416: start worker process 44580
+2018/10/18 16:33:09 [notice] 44580#44992: nginx/1.14.0
+2018/10/18 16:33:09 [info] 44580#44992: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:33:09 [notice] 44580#44992: create thread 44864
+2018/10/18 16:33:09 [notice] 44716#43368: gracefully shutting down
+2018/10/18 16:33:09 [notice] 44716#42496: exiting
+2018/10/18 16:33:09 [notice] 44580#44992: create thread 44832
+2018/10/18 16:33:09 [notice] 44580#44992: create thread 45028
+2018/10/18 16:33:15 [info] 44716#42316: *114 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:33:15 [info] 44716#42316: *115 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:33:15 [notice] 44716#42316: exiting
+2018/10/18 16:33:15 [notice] 44716#43368: exit
+2018/10/18 16:33:15 [notice] 29012#43416: worker process 44716 exited with code 0
+2018/10/18 16:34:15 [info] 44580#44864: *116 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:34:15 [info] 44580#44864: *117 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:34:20 [notice] 44456#43212: signal process started
+2018/10/18 16:34:21 [notice] 29012#43416: reconfiguring
+2018/10/18 16:34:21 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:34:21 [notice] 29012#43416: start worker processes
+2018/10/18 16:34:21 [notice] 29012#43416: start worker process 43532
+2018/10/18 16:34:21 [notice] 43532#40432: nginx/1.14.0
+2018/10/18 16:34:21 [info] 43532#40432: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:34:21 [notice] 44580#44992: gracefully shutting down
+2018/10/18 16:34:21 [notice] 43532#40432: create thread 42272
+2018/10/18 16:34:21 [notice] 44580#44832: exiting
+2018/10/18 16:34:21 [notice] 43532#40432: create thread 31828
+2018/10/18 16:34:21 [notice] 43532#40432: create thread 43128
+2018/10/18 16:34:21 [notice] 44580#44864: exiting
+2018/10/18 16:34:21 [notice] 44580#44992: exit
+2018/10/18 16:34:21 [notice] 29012#43416: worker process 44580 exited with code 0
+2018/10/18 16:35:26 [info] 43532#42272: *119 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:35:26 [info] 43532#42272: *120 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:36:21 [info] 43532#42272: *121 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:37:20 [notice] 42820#6464: signal process started
+2018/10/18 16:37:20 [notice] 29012#43416: reconfiguring
+2018/10/18 16:37:20 [notice] 29012#43416: using the "select" event method
+2018/10/18 16:37:20 [notice] 29012#43416: start worker processes
+2018/10/18 16:37:20 [notice] 29012#43416: start worker process 44708
+2018/10/18 16:37:20 [notice] 44708#38808: nginx/1.14.0
+2018/10/18 16:37:20 [info] 44708#38808: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:37:20 [notice] 44708#38808: create thread 41376
+2018/10/18 16:37:20 [notice] 43532#40432: gracefully shutting down
+2018/10/18 16:37:20 [notice] 44708#38808: create thread 42496
+2018/10/18 16:37:20 [notice] 43532#31828: exiting
+2018/10/18 16:37:20 [notice] 44708#38808: create thread 43248
+2018/10/18 16:37:21 [notice] 43532#42272: exiting
+2018/10/18 16:37:21 [notice] 43532#40432: exit
+2018/10/18 16:37:21 [notice] 29012#43416: worker process 43532 exited with code 0
+2018/10/18 16:37:43 [notice] 41316#43920: signal process started
+2018/10/18 16:37:43 [notice] 29012#43416: exiting
+2018/10/18 16:37:43 [notice] 44708#38808: gracefully shutting down
+2018/10/18 16:37:43 [notice] 44708#42496: exiting
+2018/10/18 16:37:45 [notice] 37912#43512: signal process started
+2018/10/18 16:37:45 [notice] 29012#43416: exiting
+2018/10/18 16:37:46 [notice] 28968#44072: signal process started
+2018/10/18 16:37:46 [notice] 29012#43416: exiting
+2018/10/18 16:37:46 [notice] 43156#30256: signal process started
+2018/10/18 16:37:46 [notice] 29012#43416: exiting
+2018/10/18 16:37:47 [notice] 43336#44212: signal process started
+2018/10/18 16:37:47 [notice] 29012#43416: exiting
+2018/10/18 16:37:48 [notice] 29012#43416: exit
+2018/10/18 16:37:48 [notice] 42140#44744: signal process started
+2018/10/18 16:37:48 [error] 42140#44744: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:37:53 [notice] 42804#42532: using the "select" event method
+2018/10/18 16:37:53 [notice] 42804#42532: nginx/1.14.0
+2018/10/18 16:37:53 [info] 42804#42532: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:37:53 [notice] 42804#42532: start worker processes
+2018/10/18 16:37:53 [notice] 42804#42532: start worker process 44616
+2018/10/18 16:37:53 [notice] 44616#43296: nginx/1.14.0
+2018/10/18 16:37:53 [info] 44616#43296: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:37:53 [notice] 44616#43296: create thread 10296
+2018/10/18 16:37:53 [notice] 44616#43296: create thread 43528
+2018/10/18 16:37:53 [notice] 44616#43296: create thread 44344
+2018/10/18 16:37:57 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:13 [info] 44616#10296: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:38:13 [info] 44616#10296: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:38:13 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:13 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:13 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:13 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:14 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:38:36 [info] 44616#10296: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:38:36 [error] 44616#10296: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:39:36 [info] 44616#10296: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:40:35 [notice] 37816#36108: signal process started
+2018/10/18 16:40:35 [notice] 42804#42532: reconfiguring
+2018/10/18 16:40:35 [notice] 42804#42532: using the "select" event method
+2018/10/18 16:40:35 [notice] 42804#42532: start worker processes
+2018/10/18 16:40:35 [notice] 42804#42532: start worker process 44888
+2018/10/18 16:40:35 [notice] 44888#29128: nginx/1.14.0
+2018/10/18 16:40:35 [info] 44888#29128: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:40:35 [notice] 44888#29128: create thread 44460
+2018/10/18 16:40:36 [notice] 44616#43296: gracefully shutting down
+2018/10/18 16:40:36 [notice] 44616#43528: exiting
+2018/10/18 16:40:35 [notice] 44888#29128: create thread 42008
+2018/10/18 16:40:35 [notice] 44888#29128: create thread 44212
+2018/10/18 16:40:36 [notice] 44616#10296: exiting
+2018/10/18 16:40:36 [notice] 44616#43296: exit
+2018/10/18 16:40:36 [notice] 42804#42532: worker process 44616 exited with code 0
+2018/10/18 16:41:29 [notice] 38808#10708: signal process started
+2018/10/18 16:41:29 [notice] 42804#42532: exiting
+2018/10/18 16:41:29 [notice] 44888#29128: gracefully shutting down
+2018/10/18 16:41:29 [notice] 44888#42008: exiting
+2018/10/18 16:41:34 [notice] 42804#42532: exit
+2018/10/18 16:41:37 [notice] 32600#44652: using the "select" event method
+2018/10/18 16:41:37 [notice] 32600#44652: nginx/1.14.0
+2018/10/18 16:41:37 [info] 32600#44652: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:41:37 [notice] 32600#44652: start worker processes
+2018/10/18 16:41:37 [notice] 32600#44652: start worker process 38348
+2018/10/18 16:41:37 [notice] 38348#44952: nginx/1.14.0
+2018/10/18 16:41:37 [info] 38348#44952: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:41:37 [notice] 38348#44952: create thread 44224
+2018/10/18 16:41:37 [notice] 38348#44952: create thread 44052
+2018/10/18 16:41:37 [notice] 38348#44952: create thread 44716
+2018/10/18 16:42:18 [notice] 34300#38228: signal process started
+2018/10/18 16:42:18 [notice] 32600#44652: exiting
+2018/10/18 16:42:18 [notice] 38348#44952: gracefully shutting down
+2018/10/18 16:42:18 [notice] 38348#44052: exiting
+2018/10/18 16:42:23 [notice] 32600#44652: exit
+2018/10/18 16:42:26 [notice] 44844#43288: using the "select" event method
+2018/10/18 16:42:26 [notice] 44844#43288: nginx/1.14.0
+2018/10/18 16:42:26 [info] 44844#43288: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:42:26 [notice] 44844#43288: start worker processes
+2018/10/18 16:42:26 [notice] 44844#43288: start worker process 38800
+2018/10/18 16:42:27 [notice] 38800#43312: nginx/1.14.0
+2018/10/18 16:42:27 [info] 38800#43312: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:42:27 [notice] 38800#43312: create thread 44928
+2018/10/18 16:42:27 [notice] 38800#43312: create thread 44392
+2018/10/18 16:42:27 [notice] 38800#43312: create thread 36212
+2018/10/18 16:42:39 [error] 38800#44928: *1 CreateFile() "D:/config1/config3/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config3 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:42:45 [info] 38800#44928: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:42:45 [info] 38800#44928: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:43:06 [info] 38800#44928: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:43:06 [error] 38800#44928: *1 CreateFile() "D:/config1/config3/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config3 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:43:35 [notice] 43156#44884: signal process started
+2018/10/18 16:43:35 [notice] 44844#43288: exiting
+2018/10/18 16:43:35 [notice] 38800#43312: gracefully shutting down
+2018/10/18 16:43:35 [notice] 38800#44392: exiting
+2018/10/18 16:43:36 [notice] 42116#43388: signal process started
+2018/10/18 16:43:36 [notice] 44844#43288: exiting
+2018/10/18 16:43:37 [notice] 43632#30256: signal process started
+2018/10/18 16:43:37 [notice] 44844#43288: exiting
+2018/10/18 16:43:37 [notice] 44888#40068: signal process started
+2018/10/18 16:43:37 [notice] 44844#43288: exiting
+2018/10/18 16:43:38 [notice] 42036#44812: signal process started
+2018/10/18 16:43:38 [notice] 44844#43288: exiting
+2018/10/18 16:43:40 [notice] 43584#40456: signal process started
+2018/10/18 16:43:40 [notice] 44844#43288: exiting
+2018/10/18 16:43:40 [notice] 44844#43288: exit
+2018/10/18 16:43:42 [notice] 44996#42496: signal process started
+2018/10/18 16:43:42 [error] 44996#42496: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:43:43 [notice] 37912#43988: signal process started
+2018/10/18 16:43:43 [error] 37912#43988: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:43:51 [notice] 43540#44816: using the "select" event method
+2018/10/18 16:43:51 [notice] 43540#44816: nginx/1.14.0
+2018/10/18 16:43:51 [info] 43540#44816: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:43:51 [notice] 43540#44816: start worker processes
+2018/10/18 16:43:51 [notice] 43540#44816: start worker process 39916
+2018/10/18 16:43:51 [notice] 39916#43388: nginx/1.14.0
+2018/10/18 16:43:51 [info] 39916#43388: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:43:51 [notice] 39916#43388: create thread 44888
+2018/10/18 16:43:51 [notice] 39916#43388: create thread 40884
+2018/10/18 16:43:51 [notice] 39916#43388: create thread 44052
+2018/10/18 16:43:56 [error] 39916#44888: *1 CreateFile() "D:/config1/config3/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config3 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:44:05 [error] 39916#44888: *1 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:44:13 [info] 39916#44888: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:44:13 [info] 39916#44888: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:44:40 [notice] 43316#44580: signal process started
+2018/10/18 16:44:40 [notice] 43540#44816: exiting
+2018/10/18 16:44:40 [notice] 39916#43388: gracefully shutting down
+2018/10/18 16:44:40 [notice] 39916#40884: exiting
+2018/10/18 16:44:41 [notice] 42200#44660: signal process started
+2018/10/18 16:44:41 [notice] 43540#44816: exiting
+2018/10/18 16:44:41 [notice] 39212#44072: signal process started
+2018/10/18 16:44:41 [notice] 43540#44816: exiting
+2018/10/18 16:44:42 [notice] 44356#44476: signal process started
+2018/10/18 16:44:42 [notice] 43540#44816: exiting
+2018/10/18 16:44:42 [notice] 44408#9380: signal process started
+2018/10/18 16:44:42 [notice] 43540#44816: exiting
+2018/10/18 16:44:43 [notice] 43532#44992: signal process started
+2018/10/18 16:44:43 [notice] 43540#44816: exiting
+2018/10/18 16:44:43 [notice] 39740#44996: signal process started
+2018/10/18 16:44:43 [notice] 43540#44816: exiting
+2018/10/18 16:44:44 [notice] 43844#43640: signal process started
+2018/10/18 16:44:44 [notice] 43540#44816: exiting
+2018/10/18 16:44:45 [notice] 43540#44816: exit
+2018/10/18 16:44:45 [notice] 44432#43452: signal process started
+2018/10/18 16:44:45 [error] 44432#43452: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:44:46 [notice] 38800#31828: signal process started
+2018/10/18 16:44:46 [error] 38800#31828: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:44:53 [notice] 9380#44408: using the "select" event method
+2018/10/18 16:44:53 [notice] 9380#44408: nginx/1.14.0
+2018/10/18 16:44:53 [info] 9380#44408: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:44:53 [notice] 9380#44408: start worker processes
+2018/10/18 16:44:53 [notice] 9380#44408: start worker process 44992
+2018/10/18 16:44:53 [notice] 44992#43532: nginx/1.14.0
+2018/10/18 16:44:53 [info] 44992#43532: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:44:53 [notice] 44992#43532: create thread 43640
+2018/10/18 16:44:53 [notice] 44992#43532: create thread 43844
+2018/10/18 16:44:53 [notice] 44992#43532: create thread 43428
+2018/10/18 16:45:57 [info] 44992#43640: *2 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:45:57 [info] 44992#43640: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:48:05 [notice] 44116#44580: signal process started
+2018/10/18 16:48:05 [notice] 9380#44408: exiting
+2018/10/18 16:48:05 [notice] 44992#43532: gracefully shutting down
+2018/10/18 16:48:05 [notice] 44992#43844: exiting
+2018/10/18 16:48:05 [notice] 44992#43640: exiting
+2018/10/18 16:48:05 [notice] 44992#43532: exit
+2018/10/18 16:48:05 [notice] 9380#44408: worker process 44992 exited with code 0
+2018/10/18 16:48:05 [notice] 9380#44408: exit
+2018/10/18 16:48:05 [notice] 44432#40740: signal process started
+2018/10/18 16:48:05 [error] 44432#40740: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:48:06 [notice] 43648#44584: signal process started
+2018/10/18 16:48:06 [error] 43648#44584: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:48:10 [notice] 39416#40884: using the "select" event method
+2018/10/18 16:48:10 [notice] 39416#40884: nginx/1.14.0
+2018/10/18 16:48:10 [info] 39416#40884: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:48:10 [notice] 39416#40884: start worker processes
+2018/10/18 16:48:10 [notice] 39416#40884: start worker process 42792
+2018/10/18 16:48:10 [notice] 42792#44688: nginx/1.14.0
+2018/10/18 16:48:10 [info] 42792#44688: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:48:10 [notice] 42792#44688: create thread 41544
+2018/10/18 16:48:10 [notice] 42792#44688: create thread 6724
+2018/10/18 16:48:10 [notice] 42792#44688: create thread 43532
+2018/10/18 16:48:31 [info] 42792#41544: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:48:31 [info] 42792#41544: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:48:47 [info] 42792#41544: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:48:47 [error] 42792#41544: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:48:48 [error] 42792#41544: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:48:48 [error] 42792#41544: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:48:49 [error] 42792#41544: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:48:49 [error] 42792#41544: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:12 [info] 42792#41544: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:49:24 [info] 42792#41544: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:49:24 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:25 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:26 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:26 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:26 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:26 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:27 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:27 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:27 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:27 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:28 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:29 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:39 [info] 42792#41544: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:49:39 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:39 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:40 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:40 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:49:40 [error] 42792#41544: *1 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:50:18 [notice] 45976#45980: signal process started
+2018/10/18 16:50:18 [notice] 39416#40884: exiting
+2018/10/18 16:50:18 [notice] 42792#44688: gracefully shutting down
+2018/10/18 16:50:18 [notice] 42792#6724: exiting
+2018/10/18 16:50:18 [notice] 46000#46004: signal process started
+2018/10/18 16:50:18 [notice] 39416#40884: exiting
+2018/10/18 16:50:19 [notice] 46032#46036: signal process started
+2018/10/18 16:50:19 [notice] 39416#40884: exiting
+2018/10/18 16:50:20 [notice] 46064#46068: signal process started
+2018/10/18 16:50:20 [notice] 39416#40884: exiting
+2018/10/18 16:50:20 [notice] 45064#43288: signal process started
+2018/10/18 16:50:20 [notice] 39416#40884: exiting
+2018/10/18 16:50:21 [notice] 45080#45088: signal process started
+2018/10/18 16:50:21 [notice] 39416#40884: exiting
+2018/10/18 16:50:21 [notice] 43988#45132: signal process started
+2018/10/18 16:50:21 [notice] 39416#40884: exiting
+2018/10/18 16:50:22 [notice] 45160#44592: signal process started
+2018/10/18 16:50:22 [notice] 39416#40884: exiting
+2018/10/18 16:50:23 [notice] 39416#40884: exit
+2018/10/18 16:50:23 [notice] 45180#45188: signal process started
+2018/10/18 16:50:23 [error] 45180#45188: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:50:24 [notice] 45196#45200: signal process started
+2018/10/18 16:50:24 [error] 45196#45200: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:50:35 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:50:35 [notice] 44848#40360: nginx/1.14.0
+2018/10/18 16:50:35 [info] 44848#40360: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:50:35 [notice] 44848#40360: start worker processes
+2018/10/18 16:50:35 [notice] 44848#40360: start worker process 44668
+2018/10/18 16:50:35 [notice] 44668#42040: nginx/1.14.0
+2018/10/18 16:50:35 [info] 44668#42040: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:50:35 [notice] 44668#42040: create thread 45336
+2018/10/18 16:50:35 [notice] 44668#42040: create thread 45344
+2018/10/18 16:50:35 [notice] 44668#42040: create thread 45348
+2018/10/18 16:50:57 [info] 44668#45336: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:50:57 [info] 44668#45336: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:51:20 [info] 44668#45336: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:51:57 [notice] 46072#46068: signal process started
+2018/10/18 16:51:57 [notice] 44848#40360: exiting
+2018/10/18 16:51:57 [notice] 44668#42040: gracefully shutting down
+2018/10/18 16:51:57 [notice] 44668#45344: exiting
+2018/10/18 16:51:58 [notice] 43288#45064: signal process started
+2018/10/18 16:51:58 [notice] 44848#40360: reconfiguring
+2018/10/18 16:51:58 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:51:58 [notice] 44848#40360: start worker processes
+2018/10/18 16:51:58 [notice] 44848#40360: start worker process 46056
+2018/10/18 16:51:58 [notice] 46056#46028: nginx/1.14.0
+2018/10/18 16:51:58 [info] 46056#46028: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:51:58 [notice] 46056#46028: create thread 45080
+2018/10/18 16:51:58 [notice] 46056#46028: create thread 45156
+2018/10/18 16:51:58 [notice] 46056#46028: create thread 45140
+2018/10/18 16:51:59 [notice] 45136#45132: signal process started
+2018/10/18 16:51:59 [notice] 44848#40360: reconfiguring
+2018/10/18 16:51:59 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:51:59 [notice] 44848#40360: start worker processes
+2018/10/18 16:51:59 [notice] 44848#40360: start worker process 45168
+2018/10/18 16:51:59 [notice] 45168#44592: nginx/1.14.0
+2018/10/18 16:51:59 [info] 45168#44592: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:51:59 [notice] 45168#44592: create thread 39416
+2018/10/18 16:51:59 [notice] 46056#46028: gracefully shutting down
+2018/10/18 16:51:59 [notice] 46056#45156: exiting
+2018/10/18 16:51:59 [notice] 45168#44592: create thread 38668
+2018/10/18 16:51:59 [notice] 45168#44592: create thread 44660
+2018/10/18 16:51:59 [notice] 43428#45184: signal process started
+2018/10/18 16:51:59 [notice] 44848#40360: reconfiguring
+2018/10/18 16:51:59 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:51:59 [notice] 44848#40360: start worker processes
+2018/10/18 16:51:59 [notice] 44848#40360: start worker process 45200
+2018/10/18 16:51:59 [notice] 46056#45080: exiting
+2018/10/18 16:51:59 [notice] 46056#46028: exit
+2018/10/18 16:51:59 [notice] 45200#45196: nginx/1.14.0
+2018/10/18 16:51:59 [info] 45200#45196: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:51:59 [notice] 45200#45196: create thread 35108
+2018/10/18 16:51:59 [notice] 45168#44592: gracefully shutting down
+2018/10/18 16:51:59 [notice] 44848#40360: worker process 46056 exited with code 0
+2018/10/18 16:51:59 [notice] 45168#38668: exiting
+2018/10/18 16:51:59 [notice] 45200#45196: create thread 44644
+2018/10/18 16:51:59 [notice] 45200#45196: create thread 44432
+2018/10/18 16:52:00 [notice] 41932#43648: signal process started
+2018/10/18 16:52:00 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:00 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:00 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:00 [notice] 44848#40360: start worker process 45408
+2018/10/18 16:52:00 [notice] 45168#39416: exiting
+2018/10/18 16:52:00 [notice] 45168#44592: exit
+2018/10/18 16:52:00 [notice] 45408#45340: nginx/1.14.0
+2018/10/18 16:52:00 [info] 45408#45340: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:00 [notice] 45408#45340: create thread 45924
+2018/10/18 16:52:00 [notice] 45200#45196: gracefully shutting down
+2018/10/18 16:52:00 [notice] 45408#45340: create thread 38480
+2018/10/18 16:52:00 [notice] 44848#40360: worker process 45168 exited with code 0
+2018/10/18 16:52:00 [notice] 45200#44644: exiting
+2018/10/18 16:52:00 [notice] 45408#45340: create thread 44040
+2018/10/18 16:52:00 [notice] 45200#35108: exiting
+2018/10/18 16:52:00 [notice] 45200#45196: exit
+2018/10/18 16:52:00 [notice] 44848#40360: worker process 45200 exited with code 0
+2018/10/18 16:52:00 [notice] 45472#45488: signal process started
+2018/10/18 16:52:00 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:00 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:00 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:00 [notice] 44848#40360: start worker process 45476
+2018/10/18 16:52:00 [notice] 45476#45512: nginx/1.14.0
+2018/10/18 16:52:00 [info] 45476#45512: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:00 [notice] 45408#45340: gracefully shutting down
+2018/10/18 16:52:00 [notice] 45476#45512: create thread 45552
+2018/10/18 16:52:00 [notice] 45408#38480: exiting
+2018/10/18 16:52:00 [notice] 45476#45512: create thread 45204
+2018/10/18 16:52:00 [notice] 45476#45512: create thread 45564
+2018/10/18 16:52:00 [notice] 45408#45924: exiting
+2018/10/18 16:52:00 [notice] 45408#45340: exit
+2018/10/18 16:52:00 [notice] 44848#40360: worker process 45408 exited with code 0
+2018/10/18 16:52:01 [notice] 45264#45288: signal process started
+2018/10/18 16:52:01 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:01 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:01 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:01 [notice] 44848#40360: start worker process 45304
+2018/10/18 16:52:01 [notice] 45304#45308: nginx/1.14.0
+2018/10/18 16:52:01 [info] 45304#45308: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:01 [notice] 45304#45308: create thread 45628
+2018/10/18 16:52:01 [notice] 45476#45512: gracefully shutting down
+2018/10/18 16:52:01 [notice] 45476#45204: exiting
+2018/10/18 16:52:01 [notice] 45304#45308: create thread 42272
+2018/10/18 16:52:01 [notice] 45304#45308: create thread 44732
+2018/10/18 16:52:01 [notice] 45476#45552: exiting
+2018/10/18 16:52:01 [notice] 45476#45512: exit
+2018/10/18 16:52:01 [notice] 44848#40360: worker process 45476 exited with code 0
+2018/10/18 16:52:01 [notice] 44488#45636: signal process started
+2018/10/18 16:52:01 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:01 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:01 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:01 [notice] 44848#40360: start worker process 45580
+2018/10/18 16:52:01 [notice] 45580#45572: nginx/1.14.0
+2018/10/18 16:52:01 [info] 45580#45572: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:01 [notice] 45304#45308: gracefully shutting down
+2018/10/18 16:52:01 [notice] 45580#45572: create thread 45584
+2018/10/18 16:52:01 [notice] 45304#42272: exiting
+2018/10/18 16:52:01 [notice] 45580#45572: create thread 44812
+2018/10/18 16:52:01 [notice] 45580#45572: create thread 43996
+2018/10/18 16:52:02 [notice] 45556#45504: signal process started
+2018/10/18 16:52:02 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:02 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:02 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:02 [notice] 44848#40360: start worker process 45852
+2018/10/18 16:52:02 [notice] 45304#45628: exiting
+2018/10/18 16:52:02 [notice] 45304#45308: exit
+2018/10/18 16:52:02 [notice] 45852#45516: nginx/1.14.0
+2018/10/18 16:52:02 [info] 45852#45516: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:02 [notice] 45852#45516: create thread 45420
+2018/10/18 16:52:02 [notice] 45580#45572: gracefully shutting down
+2018/10/18 16:52:02 [notice] 45580#44812: exiting
+2018/10/18 16:52:02 [notice] 45852#45516: create thread 45756
+2018/10/18 16:52:02 [notice] 45852#45516: create thread 45424
+2018/10/18 16:52:02 [notice] 44848#40360: worker process 45304 exited with code 0
+2018/10/18 16:52:02 [notice] 45580#45584: exiting
+2018/10/18 16:52:02 [notice] 45580#45572: exit
+2018/10/18 16:52:02 [notice] 44848#40360: worker process 45580 exited with code 0
+2018/10/18 16:52:02 [notice] 43424#44556: signal process started
+2018/10/18 16:52:02 [notice] 44848#40360: reconfiguring
+2018/10/18 16:52:02 [notice] 44848#40360: using the "select" event method
+2018/10/18 16:52:02 [notice] 44848#40360: start worker processes
+2018/10/18 16:52:02 [notice] 44848#40360: start worker process 43296
+2018/10/18 16:52:02 [notice] 43296#44740: nginx/1.14.0
+2018/10/18 16:52:02 [info] 43296#44740: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:02 [notice] 45852#45516: gracefully shutting down
+2018/10/18 16:52:02 [notice] 43296#44740: create thread 45464
+2018/10/18 16:52:02 [notice] 45852#45756: exiting
+2018/10/18 16:52:02 [notice] 43296#44740: create thread 45412
+2018/10/18 16:52:02 [notice] 43296#44740: create thread 44072
+2018/10/18 16:52:02 [notice] 44848#40360: exit
+2018/10/18 16:52:03 [notice] 40160#45796: signal process started
+2018/10/18 16:52:03 [error] 40160#45796: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:52:04 [notice] 45376#43632: signal process started
+2018/10/18 16:52:04 [error] 45376#43632: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:52:07 [notice] 45360#45364: using the "select" event method
+2018/10/18 16:52:07 [notice] 45360#45364: nginx/1.14.0
+2018/10/18 16:52:07 [info] 45360#45364: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:07 [notice] 45360#45364: start worker processes
+2018/10/18 16:52:07 [notice] 45360#45364: start worker process 45660
+2018/10/18 16:52:07 [notice] 45660#45916: nginx/1.14.0
+2018/10/18 16:52:07 [info] 45660#45916: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:52:07 [notice] 45660#45916: create thread 46012
+2018/10/18 16:52:07 [notice] 45660#45916: create thread 46008
+2018/10/18 16:52:07 [notice] 45660#45916: create thread 46052
+2018/10/18 16:52:29 [info] 45660#46012: *1 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:52:29 [info] 45660#46012: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:52:34 [error] 45660#46012: *3 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:52:43 [info] 45660#46012: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:53:02 [info] 45660#46012: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:53:07 [error] 45660#46012: *3 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:12 [error] 45660#46012: *6 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:13 [error] 45660#46012: *7 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:14 [error] 45660#46012: *8 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:15 [error] 45660#46012: *9 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:16 [error] 45660#46012: *10 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:16 [error] 45660#46012: *11 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:17 [error] 45660#46012: *12 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:17 [error] 45660#46012: *13 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:17 [error] 45660#46012: *14 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:18 [error] 45660#46012: *15 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:18 [error] 45660#46012: *16 rewrite or internal redirection cycle while internally redirecting to "/config1/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html/index.html", client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:38 [info] 45660#46012: *18 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:53:43 [error] 45660#46012: *17 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:53:56 [info] 45660#46012: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:54:56 [info] 45660#46012: *20 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:55:33 [info] 45660#46012: *22 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:55:33 [info] 45660#46012: *23 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:55:36 [error] 45660#46012: *21 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:55:39 [error] 45660#46012: *21 CreateFile() "D:/config1/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:56:27 [info] 45660#46012: *24 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:56:53 [notice] 43216#44044: signal process started
+2018/10/18 16:56:53 [notice] 45360#45364: reopening logs
+2018/10/18 16:56:53 [notice] 45660#45916: reopening logs
+2018/10/18 16:57:00 [info] 45660#46012: *25 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:58:00 [info] 45660#46012: *26 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:59:08 [notice] 45176#45160: signal process started
+2018/10/18 16:59:08 [notice] 45360#45364: reopening logs
+2018/10/18 16:59:08 [notice] 45660#45916: reopening logs
+2018/10/18 16:59:12 [info] 45660#46012: *27 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:59:12 [info] 45660#46012: *28 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:59:14 [info] 45660#46012: *30 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 16:59:14 [info] 45660#46012: *31 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 16:59:31 [notice] 44856#45488: signal process started
+2018/10/18 16:59:31 [notice] 45360#45364: exiting
+2018/10/18 16:59:31 [notice] 45660#45916: gracefully shutting down
+2018/10/18 16:59:31 [notice] 45660#46008: exiting
+2018/10/18 16:59:31 [notice] 44488#42932: signal process started
+2018/10/18 16:59:31 [notice] 45360#45364: exiting
+2018/10/18 16:59:32 [notice] 46040#46032: signal process started
+2018/10/18 16:59:32 [notice] 45360#45364: exiting
+2018/10/18 16:59:32 [notice] 45568#44040: signal process started
+2018/10/18 16:59:32 [notice] 45360#45364: exiting
+2018/10/18 16:59:33 [notice] 40424#45736: signal process started
+2018/10/18 16:59:33 [notice] 45360#45364: exiting
+2018/10/18 16:59:33 [notice] 43076#6724: signal process started
+2018/10/18 16:59:33 [notice] 45360#45364: exiting
+2018/10/18 16:59:34 [notice] 45236#39820: signal process started
+2018/10/18 16:59:34 [notice] 45360#45364: exiting
+2018/10/18 16:59:34 [notice] 45260#46048: signal process started
+2018/10/18 16:59:34 [notice] 45360#45364: exiting
+2018/10/18 16:59:34 [notice] 40300#45592: signal process started
+2018/10/18 16:59:34 [notice] 45360#45364: exiting
+2018/10/18 16:59:35 [notice] 45724#44476: signal process started
+2018/10/18 16:59:35 [notice] 45360#45364: exiting
+2018/10/18 16:59:36 [notice] 41664#40432: signal process started
+2018/10/18 16:59:36 [notice] 45360#45364: exiting
+2018/10/18 16:59:36 [notice] 45360#45364: exit
+2018/10/18 16:59:36 [notice] 45604#43632: signal process started
+2018/10/18 16:59:36 [error] 45604#43632: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 16:59:42 [notice] 45248#45512: using the "select" event method
+2018/10/18 16:59:42 [notice] 45248#45512: nginx/1.14.0
+2018/10/18 16:59:42 [info] 45248#45512: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:59:42 [notice] 45248#45512: start worker processes
+2018/10/18 16:59:42 [notice] 45248#45512: start worker process 35304
+2018/10/18 16:59:42 [notice] 35304#45804: nginx/1.14.0
+2018/10/18 16:59:42 [info] 35304#45804: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 16:59:42 [notice] 35304#45804: create thread 43996
+2018/10/18 16:59:42 [notice] 35304#45804: create thread 45444
+2018/10/18 16:59:42 [notice] 35304#45804: create thread 45288
+2018/10/18 16:59:44 [error] 35304#43996: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 16:59:57 [info] 35304#43996: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 16:59:57 [info] 35304#43996: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:00:10 [info] 35304#43996: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:00:21 [info] 35304#43996: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:00:36 [info] 35304#43996: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:00:49 [info] 35304#43996: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:01:06 [info] 35304#43996: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:02:07 [info] 35304#43996: *9 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:03:01 [notice] 44160#43512: signal process started
+2018/10/18 17:03:01 [notice] 45248#45512: exiting
+2018/10/18 17:03:01 [notice] 35304#45804: gracefully shutting down
+2018/10/18 17:03:01 [notice] 35304#45444: exiting
+2018/10/18 17:03:02 [notice] 35304#43996: exiting
+2018/10/18 17:03:02 [notice] 35304#45804: exit
+2018/10/18 17:03:02 [notice] 45248#45512: worker process 35304 exited with code 0
+2018/10/18 17:03:02 [notice] 45248#45512: exit
+2018/10/18 17:03:03 [notice] 40160#45408: signal process started
+2018/10/18 17:03:03 [error] 40160#45408: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:03:04 [notice] 45340#40432: signal process started
+2018/10/18 17:03:04 [error] 45340#40432: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:03:09 [notice] 44684#44208: using the "select" event method
+2018/10/18 17:03:09 [notice] 44684#44208: nginx/1.14.0
+2018/10/18 17:03:09 [info] 44684#44208: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:03:09 [notice] 44684#44208: start worker processes
+2018/10/18 17:03:09 [notice] 44684#44208: start worker process 42888
+2018/10/18 17:03:09 [notice] 42888#41932: nginx/1.14.0
+2018/10/18 17:03:09 [info] 42888#41932: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:03:09 [notice] 42888#41932: create thread 43632
+2018/10/18 17:03:09 [notice] 42888#41932: create thread 45780
+2018/10/18 17:03:09 [notice] 42888#41932: create thread 44036
+2018/10/18 17:03:19 [error] 42888#43632: *1 "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:24 [error] 42888#43632: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:36 [info] 42888#43632: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:03:36 [info] 42888#43632: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:03:36 [error] 42888#43632: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:39 [error] 42888#43632: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:41 [error] 42888#43632: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:41 [error] 42888#43632: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:03:51 [info] 42888#43632: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:04:18 [notice] 44776#45420: signal process started
+2018/10/18 17:04:18 [notice] 44684#44208: exiting
+2018/10/18 17:04:18 [notice] 42888#41932: gracefully shutting down
+2018/10/18 17:04:18 [notice] 42888#45780: exiting
+2018/10/18 17:04:19 [notice] 43524#45624: signal process started
+2018/10/18 17:04:19 [notice] 44684#44208: exiting
+2018/10/18 17:04:21 [notice] 46000#45540: signal process started
+2018/10/18 17:04:21 [notice] 44684#44208: exiting
+2018/10/18 17:04:22 [notice] 42596#44252: signal process started
+2018/10/18 17:04:22 [notice] 44684#44208: exiting
+2018/10/18 17:04:23 [notice] 45688#35304: signal process started
+2018/10/18 17:04:23 [notice] 44684#44208: exiting
+2018/10/18 17:04:23 [notice] 44684#44208: exit
+2018/10/18 17:04:23 [notice] 45160#9956: signal process started
+2018/10/18 17:04:23 [error] 45160#9956: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:04:24 [notice] 45848#46016: signal process started
+2018/10/18 17:04:24 [error] 45848#46016: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:04:27 [notice] 39212#45256: using the "select" event method
+2018/10/18 17:04:27 [notice] 39212#45256: nginx/1.14.0
+2018/10/18 17:04:27 [info] 39212#45256: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:04:27 [notice] 39212#45256: start worker processes
+2018/10/18 17:04:27 [notice] 39212#45256: start worker process 45404
+2018/10/18 17:04:27 [notice] 45404#45176: nginx/1.14.0
+2018/10/18 17:04:27 [info] 45404#45176: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:04:27 [notice] 45404#45176: create thread 46040
+2018/10/18 17:04:27 [notice] 45404#45176: create thread 45312
+2018/10/18 17:04:27 [notice] 45404#45176: create thread 42968
+2018/10/18 17:05:19 [info] 45404#46040: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:05:19 [info] 45404#46040: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:05:54 [info] 45404#46040: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:05:54 [error] 45404#46040: *1 CreateFile() "D:/index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:06:54 [info] 45404#46040: *5 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:07:30 [notice] 44580#904: signal process started
+2018/10/18 17:07:30 [notice] 39212#45256: exiting
+2018/10/18 17:07:30 [notice] 45404#45176: gracefully shutting down
+2018/10/18 17:07:30 [notice] 45404#45312: exiting
+2018/10/18 17:07:31 [notice] 45404#46040: exiting
+2018/10/18 17:07:31 [notice] 45404#45176: exit
+2018/10/18 17:07:31 [notice] 39212#45256: worker process 45404 exited with code 0
+2018/10/18 17:07:31 [notice] 39212#45256: exit
+2018/10/18 17:07:31 [notice] 45624#38504: signal process started
+2018/10/18 17:07:31 [error] 45624#38504: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:07:32 [notice] 35108#9380: signal process started
+2018/10/18 17:07:32 [error] 35108#9380: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:07:33 [notice] 45688#41932: signal process started
+2018/10/18 17:07:33 [error] 45688#41932: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:07:36 [notice] 45640#42516: using the "select" event method
+2018/10/18 17:07:36 [notice] 45640#42516: nginx/1.14.0
+2018/10/18 17:07:36 [info] 45640#42516: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:07:36 [notice] 45640#42516: start worker processes
+2018/10/18 17:07:36 [notice] 45640#42516: start worker process 45068
+2018/10/18 17:07:36 [notice] 45068#45072: nginx/1.14.0
+2018/10/18 17:07:36 [info] 45068#45072: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:07:36 [notice] 45068#45072: create thread 46064
+2018/10/18 17:07:36 [notice] 45068#45072: create thread 10708
+2018/10/18 17:07:36 [notice] 45068#45072: create thread 44544
+2018/10/18 17:07:56 [info] 45068#46064: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:07:56 [info] 45068#46064: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:08:17 [info] 45068#46064: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:08:35 [info] 45068#46064: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:09:35 [info] 45068#46064: *6 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:11:43 [info] 45068#46064: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:11:43 [info] 45068#46064: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:11:43 [info] 45068#46064: *11 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:11:43 [info] 45068#46064: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:12:43 [notice] 44076#42372: signal process started
+2018/10/18 17:12:43 [notice] 45640#42516: exiting
+2018/10/18 17:12:43 [notice] 45068#45072: gracefully shutting down
+2018/10/18 17:12:43 [notice] 45068#10708: exiting
+2018/10/18 17:12:43 [notice] 44640#43928: signal process started
+2018/10/18 17:12:44 [notice] 45640#42516: exiting
+2018/10/18 17:12:44 [info] 45068#46064: *12 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:12:44 [notice] 45068#46064: exiting
+2018/10/18 17:12:44 [notice] 45068#45072: exit
+2018/10/18 17:12:44 [notice] 45640#42516: worker process 45068 exited with code 0
+2018/10/18 17:12:44 [notice] 45640#42516: exit
+2018/10/18 17:12:44 [notice] 43844#43628: signal process started
+2018/10/18 17:12:44 [error] 43844#43628: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:12:46 [notice] 29128#43664: signal process started
+2018/10/18 17:12:46 [error] 29128#43664: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:12:50 [notice] 45708#36212: using the "select" event method
+2018/10/18 17:12:50 [notice] 45708#36212: nginx/1.14.0
+2018/10/18 17:12:50 [info] 45708#36212: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:12:50 [notice] 45708#36212: start worker processes
+2018/10/18 17:12:50 [notice] 45708#36212: start worker process 26140
+2018/10/18 17:12:50 [notice] 26140#45624: nginx/1.14.0
+2018/10/18 17:12:50 [info] 26140#45624: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:12:50 [notice] 26140#45624: create thread 43604
+2018/10/18 17:12:50 [notice] 26140#45624: create thread 43404
+2018/10/18 17:12:50 [notice] 26140#45624: create thread 45692
+2018/10/18 17:13:22 [info] 26140#43604: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:13:22 [info] 26140#43604: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:13:22 [info] 26140#43604: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:13:36 [info] 26140#43604: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:13:52 [notice] 45908#44632: signal process started
+2018/10/18 17:13:52 [notice] 45708#36212: exiting
+2018/10/18 17:13:52 [notice] 26140#45624: gracefully shutting down
+2018/10/18 17:13:52 [notice] 26140#43404: exiting
+2018/10/18 17:13:53 [notice] 45284#42064: signal process started
+2018/10/18 17:13:53 [notice] 45708#36212: exiting
+2018/10/18 17:13:54 [notice] 45900#44328: signal process started
+2018/10/18 17:13:54 [notice] 45708#36212: exiting
+2018/10/18 17:13:55 [notice] 45684#41932: signal process started
+2018/10/18 17:13:55 [notice] 45708#36212: exiting
+2018/10/18 17:13:55 [notice] 29016#45292: signal process started
+2018/10/18 17:13:55 [notice] 45708#36212: exiting
+2018/10/18 17:13:56 [notice] 36108#45212: signal process started
+2018/10/18 17:13:56 [notice] 45708#36212: exiting
+2018/10/18 17:13:57 [notice] 44252#45224: signal process started
+2018/10/18 17:13:57 [notice] 45708#36212: exiting
+2018/10/18 17:13:57 [notice] 45708#36212: exit
+2018/10/18 17:13:57 [notice] 45944#43648: signal process started
+2018/10/18 17:13:57 [error] 45944#43648: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:13:58 [notice] 44852#39740: signal process started
+2018/10/18 17:13:58 [error] 44852#39740: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:14:15 [notice] 45844#45068: using the "select" event method
+2018/10/18 17:14:15 [notice] 45844#45068: nginx/1.14.0
+2018/10/18 17:14:15 [info] 45844#45068: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:14:15 [notice] 45844#45068: start worker processes
+2018/10/18 17:14:15 [notice] 45844#45068: start worker process 45568
+2018/10/18 17:14:16 [notice] 45568#45576: nginx/1.14.0
+2018/10/18 17:14:16 [info] 45568#45576: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:14:16 [notice] 45568#45576: create thread 29096
+2018/10/18 17:14:16 [notice] 45568#45576: create thread 39124
+2018/10/18 17:14:16 [notice] 45568#45576: create thread 45180
+2018/10/18 17:14:29 [error] 45568#29096: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:14:37 [info] 45568#29096: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:14:37 [info] 45568#29096: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:15:38 [info] 45568#29096: *4 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:15:52 [notice] 44872#39216: signal process started
+2018/10/18 17:15:52 [notice] 45844#45068: exiting
+2018/10/18 17:15:52 [notice] 45568#45576: gracefully shutting down
+2018/10/18 17:15:52 [notice] 45568#39124: exiting
+2018/10/18 17:15:53 [notice] 45568#29096: exiting
+2018/10/18 17:15:53 [notice] 45568#45576: exit
+2018/10/18 17:15:53 [notice] 45844#45068: worker process 45568 exited with code 0
+2018/10/18 17:15:53 [notice] 45844#45068: exit
+2018/10/18 17:15:54 [notice] 44952#45128: signal process started
+2018/10/18 17:15:54 [error] 44952#45128: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:15:55 [notice] 44852#45952: signal process started
+2018/10/18 17:15:55 [error] 44852#45952: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:15:58 [notice] 45592#45628: using the "select" event method
+2018/10/18 17:15:58 [notice] 45592#45628: nginx/1.14.0
+2018/10/18 17:15:58 [info] 45592#45628: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:15:58 [notice] 45592#45628: start worker processes
+2018/10/18 17:15:58 [notice] 45592#45628: start worker process 44120
+2018/10/18 17:15:58 [notice] 44120#26140: nginx/1.14.0
+2018/10/18 17:15:58 [info] 44120#26140: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:15:58 [notice] 44120#26140: create thread 42820
+2018/10/18 17:15:58 [notice] 44120#26140: create thread 45496
+2018/10/18 17:15:58 [notice] 44120#26140: create thread 32600
+2018/10/18 17:16:12 [error] 44120#42820: *1 CreateFile() "D:/data/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:16:16 [info] 44120#42820: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:16:16 [info] 44120#42820: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:16:16 [info] 44120#42820: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:16:16 [error] 44120#42820: *1 "D:/data/config/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config/ HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:16:42 [info] 44120#42820: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9092
+2018/10/18 17:16:42 [error] 44120#42820: *1 CreateFile() "D:/data/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:16:46 [error] 44120#42820: *1 "D:/data/config2/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:16:55 [notice] 46072#44856: signal process started
+2018/10/18 17:16:55 [notice] 45592#45628: exiting
+2018/10/18 17:16:55 [notice] 44120#26140: gracefully shutting down
+2018/10/18 17:16:55 [notice] 44120#45496: exiting
+2018/10/18 17:16:55 [notice] 45568#44812: signal process started
+2018/10/18 17:16:55 [notice] 45592#45628: exiting
+2018/10/18 17:16:56 [notice] 37816#45268: signal process started
+2018/10/18 17:16:56 [notice] 45592#45628: exiting
+2018/10/18 17:16:56 [notice] 39372#6464: signal process started
+2018/10/18 17:16:56 [notice] 45592#45628: exiting
+2018/10/18 17:16:57 [notice] 39240#904: signal process started
+2018/10/18 17:16:57 [notice] 45592#45628: exiting
+2018/10/18 17:16:57 [notice] 45844#36108: signal process started
+2018/10/18 17:16:57 [notice] 45592#45628: exiting
+2018/10/18 17:16:58 [notice] 29016#29012: signal process started
+2018/10/18 17:16:58 [notice] 45592#45628: exiting
+2018/10/18 17:16:59 [notice] 34840#44808: signal process started
+2018/10/18 17:16:59 [notice] 45592#45628: exiting
+2018/10/18 17:16:59 [notice] 45568#45920: signal process started
+2018/10/18 17:16:59 [notice] 45592#45628: exiting
+2018/10/18 17:17:00 [notice] 45592#45628: exit
+2018/10/18 17:17:00 [notice] 37816#41296: signal process started
+2018/10/18 17:17:00 [error] 37816#41296: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:17:26 [notice] 44808#34840: using the "select" event method
+2018/10/18 17:17:26 [notice] 44808#34840: nginx/1.14.0
+2018/10/18 17:17:26 [info] 44808#34840: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:17:26 [notice] 44808#34840: start worker processes
+2018/10/18 17:17:26 [notice] 44808#34840: start worker process 45568
+2018/10/18 17:17:26 [notice] 45568#26140: nginx/1.14.0
+2018/10/18 17:17:26 [info] 45568#26140: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:17:26 [notice] 45568#26140: create thread 45096
+2018/10/18 17:17:26 [notice] 45568#26140: create thread 6464
+2018/10/18 17:17:26 [notice] 45568#26140: create thread 38668
+2018/10/18 17:17:30 [error] 45568#45096: *1 "D:/data/config2/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /config2/ HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:17:35 [error] 45568#45096: *1 CreateFile() "D:/data/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9092"
+2018/10/18 17:17:45 [notice] 6724#41296: signal process started
+2018/10/18 17:17:45 [notice] 44808#34840: exiting
+2018/10/18 17:17:45 [notice] 45568#26140: gracefully shutting down
+2018/10/18 17:17:45 [notice] 45568#6464: exiting
+2018/10/18 17:17:46 [notice] 45900#904: signal process started
+2018/10/18 17:17:46 [notice] 44808#34840: exiting
+2018/10/18 17:17:46 [notice] 45388#42928: signal process started
+2018/10/18 17:17:46 [notice] 44808#34840: exiting
+2018/10/18 17:17:47 [notice] 45212#44320: signal process started
+2018/10/18 17:17:47 [notice] 44808#34840: exiting
+2018/10/18 17:17:48 [notice] 44544#45496: signal process started
+2018/10/18 17:17:48 [notice] 44808#34840: exiting
+2018/10/18 17:17:48 [notice] 39372#44120: signal process started
+2018/10/18 17:17:48 [notice] 44808#34840: exiting
+2018/10/18 17:17:49 [notice] 44252#43928: signal process started
+2018/10/18 17:17:49 [notice] 44808#34840: exiting
+2018/10/18 17:17:49 [notice] 904#45900: signal process started
+2018/10/18 17:17:49 [notice] 44808#34840: exiting
+2018/10/18 17:17:50 [notice] 44808#34840: exit
+2018/10/18 17:17:50 [notice] 42928#45388: signal process started
+2018/10/18 17:17:50 [error] 42928#45388: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:18:02 [notice] 43928#44252: using the "select" event method
+2018/10/18 17:18:02 [notice] 43928#44252: nginx/1.14.0
+2018/10/18 17:18:02 [info] 43928#44252: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:18:02 [notice] 43928#44252: start worker processes
+2018/10/18 17:18:02 [notice] 43928#44252: start worker process 904
+2018/10/18 17:18:02 [notice] 904#44436: nginx/1.14.0
+2018/10/18 17:18:02 [info] 904#44436: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:18:02 [notice] 904#44436: create thread 44808
+2018/10/18 17:18:02 [notice] 904#44436: create thread 44852
+2018/10/18 17:18:02 [notice] 904#44436: create thread 45952
+2018/10/18 17:18:12 [error] 904#44808: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:18:44 [notice] 45824#40456: signal process started
+2018/10/18 17:18:44 [notice] 43928#44252: exiting
+2018/10/18 17:18:44 [notice] 904#44436: gracefully shutting down
+2018/10/18 17:18:44 [notice] 904#44852: exiting
+2018/10/18 17:18:45 [notice] 42224#45388: signal process started
+2018/10/18 17:18:45 [notice] 43928#44252: exiting
+2018/10/18 17:18:46 [notice] 45656#35108: signal process started
+2018/10/18 17:18:46 [notice] 43928#44252: exiting
+2018/10/18 17:18:47 [notice] 45264#42820: signal process started
+2018/10/18 17:18:47 [notice] 43928#44252: exiting
+2018/10/18 17:18:47 [notice] 43680#42372: signal process started
+2018/10/18 17:18:48 [notice] 43928#44252: exiting
+2018/10/18 17:18:48 [notice] 41156#45716: signal process started
+2018/10/18 17:18:48 [notice] 43928#44252: exiting
+2018/10/18 17:18:49 [notice] 43928#44252: exit
+2018/10/18 17:18:49 [notice] 45844#36108: signal process started
+2018/10/18 17:18:49 [error] 45844#36108: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:19:24 [notice] 45716#41156: using the "select" event method
+2018/10/18 17:19:24 [notice] 45716#41156: nginx/1.14.0
+2018/10/18 17:19:24 [info] 45716#41156: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:19:24 [notice] 45716#41156: start worker processes
+2018/10/18 17:19:24 [notice] 45716#41156: start worker process 44852
+2018/10/18 17:19:24 [notice] 44852#45952: nginx/1.14.0
+2018/10/18 17:19:24 [info] 44852#45952: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:19:24 [notice] 44852#45952: create thread 44952
+2018/10/18 17:19:24 [notice] 44852#45952: create thread 44252
+2018/10/18 17:19:24 [notice] 44852#45952: create thread 43928
+2018/10/18 17:19:30 [error] 44852#44952: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:19:39 [error] 44852#44952: *1 CreateFile() "D:111" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/111 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:19:46 [info] 44852#44952: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:19:46 [error] 44852#44952: *1 CreateFile() "D:index.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config/index.html HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:20:30 [notice] 29012#42064: signal process started
+2018/10/18 17:20:30 [notice] 45716#41156: reopening logs
+2018/10/18 17:20:30 [notice] 44852#45952: reopening logs
+2018/10/18 17:20:30 [notice] 44740#45576: signal process started
+2018/10/18 17:20:30 [notice] 45716#41156: exiting
+2018/10/18 17:20:30 [notice] 44852#45952: gracefully shutting down
+2018/10/18 17:20:30 [notice] 44852#44252: exiting
+2018/10/18 17:20:31 [notice] 44036#41932: signal process started
+2018/10/18 17:20:31 [notice] 45716#41156: exiting
+2018/10/18 17:20:31 [notice] 43788#45920: signal process started
+2018/10/18 17:20:31 [notice] 45716#41156: exiting
+2018/10/18 17:20:32 [notice] 41296#44120: signal process started
+2018/10/18 17:20:32 [notice] 45716#41156: exiting
+2018/10/18 17:20:33 [notice] 45264#45900: signal process started
+2018/10/18 17:20:33 [notice] 45716#41156: exiting
+2018/10/18 17:20:33 [notice] 44164#44728: signal process started
+2018/10/18 17:20:33 [notice] 45716#41156: exiting
+2018/10/18 17:20:34 [notice] 45636#45096: signal process started
+2018/10/18 17:20:34 [notice] 45716#41156: exiting
+2018/10/18 17:20:34 [notice] 45824#45124: signal process started
+2018/10/18 17:20:34 [notice] 45716#41156: exiting
+2018/10/18 17:20:35 [notice] 42596#45656: signal process started
+2018/10/18 17:20:35 [notice] 45716#41156: exiting
+2018/10/18 17:20:35 [notice] 45716#41156: exit
+2018/10/18 17:20:36 [notice] 45336#45360: signal process started
+2018/10/18 17:20:36 [error] 45336#45360: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:20:40 [notice] 3512#45576: using the "select" event method
+2018/10/18 17:20:40 [notice] 3512#45576: nginx/1.14.0
+2018/10/18 17:20:40 [info] 3512#45576: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:20:40 [notice] 3512#45576: start worker processes
+2018/10/18 17:20:40 [notice] 3512#45576: start worker process 43648
+2018/10/18 17:20:40 [notice] 43648#904: nginx/1.14.0
+2018/10/18 17:20:40 [info] 43648#904: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:20:40 [notice] 43648#904: create thread 32348
+2018/10/18 17:20:40 [notice] 43648#904: create thread 39372
+2018/10/18 17:20:40 [notice] 43648#904: create thread 44120
+2018/10/18 17:20:54 [error] 43648#32348: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:21:04 [info] 43648#32348: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:21:04 [info] 43648#32348: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:21:17 [info] 43648#32348: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:21:17 [error] 43648#32348: *1 CreateFile() "D:/cofig" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /cofig HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:21:27 [error] 43648#32348: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:21:30 [info] 43648#32348: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:21:30 [error] 43648#32348: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:21:43 [info] 43648#32348: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:21:43 [error] 43648#32348: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:35 [notice] 43844#45684: signal process started
+2018/10/18 17:22:35 [notice] 3512#45576: reopening logs
+2018/10/18 17:22:35 [notice] 43648#904: reopening logs
+2018/10/18 17:22:39 [notice] 45944#43348: signal process started
+2018/10/18 17:22:39 [notice] 3512#45576: exiting
+2018/10/18 17:22:39 [notice] 43648#904: gracefully shutting down
+2018/10/18 17:22:39 [notice] 43648#39372: exiting
+2018/10/18 17:22:40 [notice] 45124#43628: signal process started
+2018/10/18 17:22:40 [notice] 3512#45576: exiting
+2018/10/18 17:22:41 [notice] 44252#45668: signal process started
+2018/10/18 17:22:41 [notice] 3512#45576: exiting
+2018/10/18 17:22:41 [notice] 45684#43844: signal process started
+2018/10/18 17:22:41 [notice] 3512#45576: exiting
+2018/10/18 17:22:42 [notice] 43788#45060: signal process started
+2018/10/18 17:22:42 [notice] 3512#45576: exiting
+2018/10/18 17:22:43 [notice] 45944#45592: signal process started
+2018/10/18 17:22:43 [notice] 3512#45576: exiting
+2018/10/18 17:22:43 [notice] 45124#45212: signal process started
+2018/10/18 17:22:43 [notice] 3512#45576: exiting
+2018/10/18 17:22:44 [info] 43648#32348: *7 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:22:44 [notice] 43648#32348: exiting
+2018/10/18 17:22:44 [notice] 43648#904: exit
+2018/10/18 17:22:44 [notice] 3512#45576: worker process 43648 exited with code 0
+2018/10/18 17:22:44 [notice] 3512#45576: exit
+2018/10/18 17:22:44 [notice] 36108#45668: signal process started
+2018/10/18 17:22:44 [error] 36108#45668: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:22:44 [notice] 10708#43844: signal process started
+2018/10/18 17:22:44 [error] 10708#43844: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:22:49 [notice] 44164#45624: using the "select" event method
+2018/10/18 17:22:49 [notice] 44164#45624: nginx/1.14.0
+2018/10/18 17:22:49 [info] 44164#45624: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:22:49 [notice] 44164#45624: start worker processes
+2018/10/18 17:22:49 [notice] 44164#45624: start worker process 45592
+2018/10/18 17:22:49 [notice] 45592#45944: nginx/1.14.0
+2018/10/18 17:22:49 [info] 45592#45944: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:22:49 [notice] 45592#45944: create thread 45920
+2018/10/18 17:22:49 [notice] 45592#45944: create thread 45180
+2018/10/18 17:22:49 [notice] 45592#45944: create thread 46000
+2018/10/18 17:22:53 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:54 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:55 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:56 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:57 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:57 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:22:57 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:23:08 [info] 45592#45920: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:23:08 [info] 45592#45920: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:23:08 [error] 45592#45920: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:23:25 [info] 45592#45920: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:23:25 [error] 45592#45920: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:23:31 [notice] 42288#45716: signal process started
+2018/10/18 17:23:31 [notice] 44164#45624: exiting
+2018/10/18 17:23:31 [notice] 45592#45944: gracefully shutting down
+2018/10/18 17:23:31 [notice] 45592#45180: exiting
+2018/10/18 17:23:31 [notice] 45824#31708: signal process started
+2018/10/18 17:23:31 [notice] 44164#45624: exiting
+2018/10/18 17:23:32 [notice] 44120#45256: signal process started
+2018/10/18 17:23:32 [notice] 44164#45624: exiting
+2018/10/18 17:23:32 [notice] 41296#45900: signal process started
+2018/10/18 17:23:32 [notice] 44164#45624: exiting
+2018/10/18 17:23:33 [notice] 45256#44120: signal process started
+2018/10/18 17:23:33 [notice] 44164#45624: exiting
+2018/10/18 17:23:33 [notice] 45264#45900: signal process started
+2018/10/18 17:23:33 [notice] 44164#45624: reconfiguring
+2018/10/18 17:23:33 [notice] 44164#45624: using the "select" event method
+2018/10/18 17:23:33 [notice] 44164#45624: start worker processes
+2018/10/18 17:23:33 [notice] 44164#45624: start worker process 45716
+2018/10/18 17:23:33 [notice] 45716#41124: nginx/1.14.0
+2018/10/18 17:23:33 [info] 45716#41124: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:23:33 [notice] 45716#41124: create thread 46088
+2018/10/18 17:23:33 [notice] 45716#41124: create thread 46092
+2018/10/18 17:23:33 [notice] 45716#41124: create thread 46096
+2018/10/18 17:23:34 [notice] 46100#46104: signal process started
+2018/10/18 17:23:34 [notice] 44164#45624: reconfiguring
+2018/10/18 17:23:34 [notice] 44164#45624: using the "select" event method
+2018/10/18 17:23:34 [notice] 44164#45624: start worker processes
+2018/10/18 17:23:34 [notice] 44164#45624: start worker process 46120
+2018/10/18 17:23:34 [notice] 46120#46124: nginx/1.14.0
+2018/10/18 17:23:34 [info] 46120#46124: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:23:34 [notice] 46120#46124: create thread 46164
+2018/10/18 17:23:34 [notice] 45716#41124: gracefully shutting down
+2018/10/18 17:23:34 [notice] 46120#46124: create thread 46168
+2018/10/18 17:23:34 [notice] 45716#46092: exiting
+2018/10/18 17:23:34 [notice] 46120#46124: create thread 46172
+2018/10/18 17:23:34 [notice] 45716#46088: exiting
+2018/10/18 17:23:34 [notice] 45716#41124: exit
+2018/10/18 17:23:34 [notice] 44164#45624: worker process 45716 exited with code 0
+2018/10/18 17:23:36 [notice] 44164#45624: exit
+2018/10/18 17:23:36 [notice] 46184#46188: signal process started
+2018/10/18 17:23:36 [error] 46184#46188: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:23:36 [notice] 46208#46212: signal process started
+2018/10/18 17:23:36 [error] 46208#46212: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:24:08 [notice] 46376#46380: using the "select" event method
+2018/10/18 17:24:08 [notice] 46376#46380: nginx/1.14.0
+2018/10/18 17:24:08 [info] 46376#46380: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:24:08 [notice] 46376#46380: start worker processes
+2018/10/18 17:24:08 [notice] 46376#46380: start worker process 46400
+2018/10/18 17:24:08 [notice] 46400#46404: nginx/1.14.0
+2018/10/18 17:24:08 [info] 46400#46404: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:24:08 [notice] 46400#46404: create thread 46448
+2018/10/18 17:24:08 [notice] 46400#46404: create thread 46452
+2018/10/18 17:24:08 [notice] 46400#46404: create thread 46456
+2018/10/18 17:24:12 [error] 46400#46448: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:13 [error] 46400#46448: *1 CreateFile() "D:/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:15 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:18 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:18 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:18 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:18 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:18 [error] 46400#46448: *1 CreateFile() "D:/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:24:39 [notice] 46760#46764: signal process started
+2018/10/18 17:24:39 [notice] 46376#46380: exiting
+2018/10/18 17:24:39 [notice] 46400#46404: gracefully shutting down
+2018/10/18 17:24:39 [notice] 46400#46452: exiting
+2018/10/18 17:24:40 [notice] 46788#46792: signal process started
+2018/10/18 17:24:40 [notice] 46376#46380: exiting
+2018/10/18 17:24:42 [notice] 46816#46820: signal process started
+2018/10/18 17:24:42 [notice] 46376#46380: exiting
+2018/10/18 17:24:43 [notice] 46844#46848: signal process started
+2018/10/18 17:24:43 [notice] 46376#46380: exiting
+2018/10/18 17:24:43 [notice] 46864#46868: signal process started
+2018/10/18 17:24:43 [notice] 46376#46380: exiting
+2018/10/18 17:24:44 [notice] 46884#46888: signal process started
+2018/10/18 17:24:44 [notice] 46376#46380: exiting
+2018/10/18 17:24:44 [notice] 46376#46380: exit
+2018/10/18 17:24:45 [notice] 46904#46908: signal process started
+2018/10/18 17:24:45 [error] 46904#46908: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:24:45 [notice] 46924#46928: signal process started
+2018/10/18 17:24:45 [error] 46924#46928: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:24:57 [notice] 46996#47000: using the "select" event method
+2018/10/18 17:24:57 [notice] 46996#47000: nginx/1.14.0
+2018/10/18 17:24:57 [info] 46996#47000: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:24:57 [notice] 46996#47000: start worker processes
+2018/10/18 17:24:57 [notice] 46996#47000: start worker process 47032
+2018/10/18 17:24:57 [notice] 47032#47036: nginx/1.14.0
+2018/10/18 17:24:57 [info] 47032#47036: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:24:57 [notice] 47032#47036: create thread 47080
+2018/10/18 17:24:57 [notice] 47032#47036: create thread 47084
+2018/10/18 17:24:57 [notice] 47032#47036: create thread 47088
+2018/10/18 17:25:05 [error] 47032#47080: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:25:07 [error] 47032#47080: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:25:09 [error] 47032#47080: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:25:13 [info] 47032#47080: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:25:13 [info] 47032#47080: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:25:25 [notice] 46232#46248: signal process started
+2018/10/18 17:25:25 [notice] 46996#47000: exiting
+2018/10/18 17:25:25 [notice] 47032#47036: gracefully shutting down
+2018/10/18 17:25:25 [notice] 47032#47084: exiting
+2018/10/18 17:25:26 [notice] 46280#46284: signal process started
+2018/10/18 17:25:26 [notice] 46996#47000: exiting
+2018/10/18 17:25:26 [notice] 42224#46300: signal process started
+2018/10/18 17:25:26 [notice] 46996#47000: exiting
+2018/10/18 17:25:27 [notice] 46316#46320: signal process started
+2018/10/18 17:25:27 [notice] 46996#47000: exiting
+2018/10/18 17:25:27 [notice] 46356#46360: signal process started
+2018/10/18 17:25:27 [notice] 46996#47000: exiting
+2018/10/18 17:25:28 [notice] 46384#46244: signal process started
+2018/10/18 17:25:28 [notice] 46996#47000: exiting
+2018/10/18 17:25:29 [notice] 46464#46468: signal process started
+2018/10/18 17:25:29 [notice] 46996#47000: exiting
+2018/10/18 17:25:30 [notice] 46996#47000: exit
+2018/10/18 17:25:30 [notice] 46480#46484: signal process started
+2018/10/18 17:25:30 [error] 46480#46484: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:25:31 [notice] 45060#45576: signal process started
+2018/10/18 17:25:31 [error] 45060#45576: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:25:32 [notice] 43648#42064: signal process started
+2018/10/18 17:25:32 [error] 43648#42064: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:25:32 [notice] 46512#46580: signal process started
+2018/10/18 17:25:32 [error] 46512#46580: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:25:36 [notice] 46604#46608: using the "select" event method
+2018/10/18 17:25:36 [notice] 46604#46608: nginx/1.14.0
+2018/10/18 17:25:36 [info] 46604#46608: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:25:36 [notice] 46604#46608: start worker processes
+2018/10/18 17:25:36 [notice] 46604#46608: start worker process 40432
+2018/10/18 17:25:36 [notice] 40432#40360: nginx/1.14.0
+2018/10/18 17:25:36 [info] 40432#40360: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:25:36 [notice] 40432#40360: create thread 45112
+2018/10/18 17:25:36 [notice] 40432#40360: create thread 43180
+2018/10/18 17:25:36 [notice] 40432#40360: create thread 45536
+2018/10/18 17:25:49 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:25:54 [info] 40432#45112: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:25:54 [info] 40432#45112: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:26:09 [info] 40432#45112: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:26:31 [info] 40432#45112: *5 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:26:31 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:26:36 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config3" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config3 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:26:39 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config2 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:26:43 [info] 40432#45112: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:26:43 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config1 HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:26:55 [info] 40432#45112: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:26:55 [error] 40432#45112: *1 CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/html/config" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /config HTTP/1.1", host: "localhost:9091"
+2018/10/18 17:27:06 [info] 40432#45112: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:9091
+2018/10/18 17:27:36 [notice] 44436#46592: signal process started
+2018/10/18 17:27:36 [notice] 46604#46608: exiting
+2018/10/18 17:27:36 [notice] 40432#40360: gracefully shutting down
+2018/10/18 17:27:36 [notice] 40432#43180: exiting
+2018/10/18 17:27:37 [notice] 46132#46088: signal process started
+2018/10/18 17:27:37 [notice] 46604#46608: exiting
+2018/10/18 17:27:37 [notice] 46624#47032: signal process started
+2018/10/18 17:27:37 [notice] 46604#46608: exiting
+2018/10/18 17:27:38 [notice] 38716#43428: signal process started
+2018/10/18 17:27:38 [notice] 46604#46608: exiting
+2018/10/18 17:27:39 [notice] 46256#46260: signal process started
+2018/10/18 17:27:39 [notice] 46604#46608: exiting
+2018/10/18 17:27:39 [notice] 46644#46692: signal process started
+2018/10/18 17:27:39 [notice] 46604#46608: exiting
+2018/10/18 17:27:40 [notice] 46676#46140: signal process started
+2018/10/18 17:27:40 [notice] 46604#46608: exiting
+2018/10/18 17:27:41 [notice] 29016#46148: signal process started
+2018/10/18 17:27:41 [notice] 46604#46608: exiting
+2018/10/18 17:27:41 [notice] 46604#46608: exit
+2018/10/18 17:27:41 [notice] 46224#46184: signal process started
+2018/10/18 17:27:41 [error] 46224#46184: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:27:42 [notice] 46808#46812: signal process started
+2018/10/18 17:27:42 [error] 46808#46812: CreateFile() "D:\Program Files\nginx-demo\windows\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/18 17:27:47 [notice] 46860#46896: using the "select" event method
+2018/10/18 17:27:47 [notice] 46860#46896: nginx/1.14.0
+2018/10/18 17:27:47 [info] 46860#46896: OS: 260200 build:9200, "", suite:100, type:1
+2018/10/18 17:27:47 [notice] 46860#46896: start worker processes
+2018/10/18 17:27:47 [notice] 46860#46896: start worker process 46396
+2018/10/18 17:27:48 [notice] 46396#46392: nginx/1.14.0
+2018/10/18 17:27:48 [info] 46396#46392: OS: 260200 build:9200, "", suite:100, type:1
