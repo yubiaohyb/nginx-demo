@@ -34,7 +34,8 @@ nginx -s quit       --优雅关闭
 请查看conf/custom/文件夹下。
 主文件my.conf，include以下文件：
   mime.types拷贝自conf方便使用；
-  default.conf保存原有默认配置；
-  proxyBaidu.conf配置代理百度；
+  default保存原有默认配置；
+  proxyBaidu配置代理百度；
+  viewDirectory配置页面查看目录；
   proxyLocal配置代理本地。
 ```
