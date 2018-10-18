@@ -24,7 +24,8 @@ Options:
 #### 常用指令 ####
 ```
 start nginx      --后台运行，一闪而过
-nginx -c conf/custom/my.conf      --显式y
+nginx -c conf/custom/my.conf      --显式指定配置启动
+nginx -c conf/custom/my.conf -s reload      --重载配置
 nginx -s stop       --关闭nginx服务
 nginx -s quit       --优雅关闭
 ```
