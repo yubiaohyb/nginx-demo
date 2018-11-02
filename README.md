@@ -36,3 +36,16 @@ kill -s QUIT 1628同样可以实现nginx的优雅关闭，同理，应该可将Q
 >如果在一个块指令中包含其他的指令，则称该块指令为一个上下文（例如：events/http/server/location）。
 >配置文件中，如果一个上下文不在其他上下文中，则认为该上下文处在主上下文中（如：events/http）。
 >配置中使用#进行注释备注。
+
+### Serving Static Content
+略。
+
+### Setting Up a Simple Proxy Server
+略。
+
+### Setting Up FastCGI Proxying
+略。
+
+
+
+
