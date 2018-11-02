@@ -107,3 +107,40 @@ HUP信号发送后，如下：
 在重打开操作成功后，主进程关闭所有已打开的文件，并向工作进程发送消息要求他们重新打开日志文件。
 工作进程收到消息后，也会立刻关闭已打开的日志文件，并重新打开。
 这样，旧的文件基本可以立即进行后置处理，例如：压缩。
+
+### Upgrading Executable on the Fly
+升级服务器可执行文件，首先需要用新的可执行文件替换旧的可执行文件，然后向主进程发送USR2信号。
+主进程收到信号后，首先会将原有的进程文件nginx.pid重命名为nginx.pid.oldbin，然后运行新的可执行文件创建新的工作进程：
+```
+  PID  PPID USER    %CPU   VSZ WCHAN  COMMAND
+33126     1 root     0.0  1164 pause  nginx: master process /usr/local/nginx/sbin/nginx
+33134 33126 nobody   0.0  1368 kqread nginx: worker process (nginx)
+33135 33126 nobody   0.0  1380 kqread nginx: worker process (nginx)
+33136 33126 nobody   0.0  1368 kqread nginx: worker process (nginx)
+36264 33126 root     0.0  1148 pause  nginx: master process /usr/local/nginx/sbin/nginx
+36265 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36266 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36267 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+```
+&nbsp;&nbsp;&nbsp;&nbsp;然后所有的工作进程包括老的和旧的都会接收请求。在老的主进程接收到WINCH信号后，老的主进程发送消息要求它所属的所有工作进程优雅退出：
+```
+  PID  PPID USER    %CPU   VSZ WCHAN  COMMAND
+33126     1 root     0.0  1164 pause  nginx: master process /usr/local/nginx/sbin/nginx
+33135 33126 nobody   0.0  1380 kqread nginx: worker process is shutting down (nginx)
+36264 33126 root     0.0  1148 pause  nginx: master process /usr/local/nginx/sbin/nginx
+36265 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36266 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36267 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+```
+一段时间后只剩下新的工作进程处理请求：
+```
+  PID  PPID USER    %CPU   VSZ WCHAN  COMMAND
+33126     1 root     0.0  1164 pause  nginx: master process /usr/local/nginx/sbin/nginx
+36264 33126 root     0.0  1148 pause  nginx: master process /usr/local/nginx/sbin/nginx
+36265 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36266 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+36267 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+```
+需要注意的是，老的主进程不会关闭它的监听sockets，如果需要还可以用来创建它自己的工作进程。当新的可执行文件没有按照预期运作时，可以采用以下措施：
+* 向老的主进程发送HUP信号。老的主进程会再创建它自己的工作进程，此时不需要再读取配置文件。然后老的主进程会向新的主进程发送QUIT信号，优雅关闭新的主进程下的工作进程。
+* 向新的主进程发送TERM信号。新的主进程会发送消息要求所属的所有新的工作进程立刻退出，而对应的工作进程实际也基本如此（如果新的进程由于某些原因，没有退出，那么我们应该使用kill信号指令强制杀死对应进程）。当新的主进程退出后，老的主进程会自动创建自己的工作jin'chengjin'ch
