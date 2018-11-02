@@ -147,10 +147,10 @@ HUP信号发送后，如下：
 
 如果新的主进程退出服务，老的进程会把已经添加.oldbin后缀的原主进程记录文件名称改回来。
 如果升级成功，则会向老的主进程发送QUIT信号，只留下新的主进程：
-|PID|PPID|USER|%CPU|VSZ|WCHAN|COMMAND|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---|
-|36264|1|root|0.0|1148|pause|nginx: master process /usr/local/nginx/sbin/nginx|
-|36265|36264|nobody|0.0|1364|kqread|nginx: worker process (nginx)|
-|36266|36264|nobody|0.0|1364|kqread|nginx: worker process (nginx)|
-|36267|36264|nobody|0.0|1364|kqread|nginx: worker process (nginx)|
-36267 36264 nobody   0.0  1364 kqread nginx: worker process (nginx)
+
+PID | PPID | USER | %CPU | VSZ | WCHAN | COMMAND
+--- | --- | --- | --- | --- | --- | ---
+36264 | 1 | root | 0.0 | 1148 | pause | nginx: master process /usr/local/nginx/sbin/nginx
+36265 | 36264 | nobody | 0.0 | 1364 | kqread | nginx: worker process (nginx)
+36266 | 36264 | nobody | 0.0 | 1364 | kqread | nginx: worker process (nginx)
+36267 | 36264 | nobody | 0.0 | 1364 | kqread | nginx: worker process (nginx)
